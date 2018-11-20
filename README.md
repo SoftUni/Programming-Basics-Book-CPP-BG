@@ -2,8 +2,7 @@
 
 Книгата "**Основи на програмирането със C++**" запознава читателите с писането на **програмен код** на начално ниво (работа с данни, проверки, цикли и методи) с езика **C++**.
 
-<a href="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/resources/Programming-Basics-CSharp-v2017.pdf">
-<img src="/assets/CSharp-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането със C++ - корица" class="readme-book-cover-image" /></a>
+<img src="/assets/CPP-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането със C++ - корица" class="readme-book-cover-image" /></a>
 
 * [Предговор](chapter-00-preface.md)
 * [1. Първи стъпки в програмирането](chapter-01-first-steps-in-programming.md)
