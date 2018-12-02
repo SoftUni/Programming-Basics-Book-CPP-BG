@@ -6,7 +6,7 @@
 > Ако нещо в текста ви изглежда очевидно невярно за C++, това е защото сме копирали C# версията на тази книга като основа.
 > Предстои още много работа. Ако имате желание да участвате в разработката, свържете се с Наков.
 
-<img src="/assets/CPP-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането със C++ - корица" class="readme-book-cover-image" /></a>
+<img src="/assets/CPP-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането със C++ - корица" class="readme-book-cover-image" />
 
 * [Предговор](chapter-00-preface.md)
 * [1. Първи стъпки в програмирането](chapter-01-first-steps-in-programming.md)
