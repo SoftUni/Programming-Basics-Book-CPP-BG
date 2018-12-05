@@ -10,7 +10,6 @@
   href="https://www.youtube.com/watch?v=K_ibDVv4Kd0">
   https://www.youtube.com/watch?v=K_ibDVv4Kd0</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 ### Пример: правоъгълник от 10 x 10 звездички
 
