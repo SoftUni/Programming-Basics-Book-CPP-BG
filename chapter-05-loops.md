@@ -9,7 +9,6 @@
   href="https://www.youtube.com/watch?v=7D7fECmq_VQ">
   https://www.youtube.com/watch?v=7D7fECmq_VQ</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 ## Повторения на блокове код (for цикъл)
 
