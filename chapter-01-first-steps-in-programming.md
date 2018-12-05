@@ -9,7 +9,6 @@
   href="https://www.youtube.com/watch?v=CYPURYobOT8">
   https://www.youtube.com/watch?v=CYPURYobOT8</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 ## Какво означава "да програмираме"?
 
