@@ -7,7 +7,6 @@
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=mCacBknnYKQ">https://www.youtube.com/watch?v=mCacBknnYKQ</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 ## Сравняване на числа
 
