@@ -17,7 +17,6 @@
   https://www.youtube.com/watch?v=JWaS7V0QlGk">
   https://www.youtube.com/watch?v=JWaS7V0QlGk</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 
 ## Цикли със стъпка
