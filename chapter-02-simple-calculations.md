@@ -12,7 +12,6 @@
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=QCqD7btQMbI">https://www.youtube.com/watch?v=QCqD7btQMbI</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 ## Системна конзола
 
