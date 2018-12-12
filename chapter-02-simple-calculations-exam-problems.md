@@ -130,7 +130,7 @@ string str = firstName + " " + lastName + " is " + to_string(age) + " years old"
 
 Първото, което трябва да направим, е да прочетем входните данни от конзолата. С **`Console.ReadLine()`** четем стойностите от конзолата, а с функцията **`double.Parse(…)`** преобразуваме зададената стрингова (текстова) стойност в **`double`**. 
 
-![](/assets/old-images/chapter-2-2-images/01.Training-lab-03.png)
+![](/assets/chapter-2-2-images/study-hall-01.png)
 
 Нека пристъпим към изчисленията. Особеното тук е, че след като извършим делението, трябва да запазим в променлива само цялата част от резултата. 
 
@@ -140,7 +140,7 @@ string str = firstName + " " + lastName + " is " + to_string(age) + " years old"
 
 В случая може да пробваме със следното търсене: "[***C++ get whole number part of double***](https://www.google.com/?q=c%23+get+whole+number+part+of+double)". Откриваме, че едната възможност е да използваме метода **`Math.Truncate(…)`**. Тъй като той работи с променливи от тип **`double`**, за броя редици и колони създаваме променливи също от този тип.
 
-![](/assets/old-images/chapter-2-2-images/01.Training-lab-04.png)
+![](/assets/chapter-2-2-images/study-hall-02 (2).png)
 
 Втори вариант: както вече знаем, операторът за деление **`/`** има различно действие върху цели и реални числа. **При деление на целочислен с целочислен тип** (напр. **`int`**), **върнатият резултат е отново целочислен**. Следователно можем да потърсим как да преобразуваме реалните числа, които имаме като стойности за височината и широчината, в цели числа и след това да извършим делението. 
 
@@ -150,7 +150,7 @@ string str = firstName + " " + lastName + " is " + to_string(age) + " years old"
 
 С **`Console.WriteLine(…)`** отпечатваме резултата на конзолата.
 
-![](/assets/old-images/chapter-2-2-images/01.Training-lab-06.png)
+![](/assets/chapter-2-2-images/study-hall-03.png)
 
 ### Тестване в Judge системата
 
