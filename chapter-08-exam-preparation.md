@@ -124,20 +124,18 @@
 
 Входът е стандартен, като единствено трябва да внимаваме за последователността, в която прочитаме данните.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/02.Bricks-01.png)
+<img src = "/assets/chapter-8-1-images/02.Bricks-01.png"/>
 
 Пресмятаме колко **тухли** носят работниците на един курс.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/02.Bricks-02.png)
+<img src = "/assets/chapter-8-1-images/02.Bricks-02.png"/>
 
 Като разделим общия брой на **тухлите, пренесени за 1 курс**, ще получим броя **курсове**, необходими за пренасянето им. Трябва да съобразим, че при деление на цели числа се пренебрегва остатъка и се закръгля винаги надолу. За да избегнем това ще конвертираме дясната страна на уравнението към **`double`** и ще използваме функцията **`ceil()`** от библиотеката **`cmath`**, за да закръглим получения резултат винаги нагоре. Когато тухлите могат да се пренесат с **точен брой курсове**, делението ще връща точно число и няма да има нищо за закръгляне. Съответно, когато не е така, резултатът от делението ще е **броя на точните курсове**, но с десетична част. Десетичната част ще се закръгли нагоре и така ще се получи нужният **1 курс** за оставащите тухли.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/02.Bricks-03.png)
-
+<img src = "/assets/chapter-8-1-images/02.Bricks-03.png"/>
 Накрая извеждаме резултата на конзолата.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/02.Bricks-04.png)
-
+<img src = "/assets/chapter-8-1-images/02.Bricks-04.png"/>
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#1](https://judge.softuni.bg/Contests/Practice/Index/516#1).
@@ -170,37 +168,37 @@
 
 |Вход|Изход|Визуализация|
 |---|---|---|
-|10<br>5<br>7|in<br>2|![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-01.png)|
+|10<br>5<br>7|in<br>2|<img src = "/assets/chapter-8-1-images/03.Point-on-segment-01.png"/>|
 
 |Вход|Изход|Визуализация|
 |---|---|---|
-|8<br>10<br>5|out<br>3|![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-02.png)|
+|8<br>10<br>5|out<br>3|<img src = "/assets/chapter-8-1-images/03.Point-on-segment-02.png"/>|
 
 |Вход|Изход|Визуализация|
 |---|---|---|
-|1<br>-2<br>3|out<br>2|![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-03.png)|
+|1<br>-2<br>3|out<br>2|<img src = "/assets/chapter-8-1-images/03.Point-on-segment-03.png"/>|
 
 #### Насоки и подсказки
 
 Четем входа от конзолата.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-04.png)
+<img src = "/assets/chapter-8-1-images/03.Point-on-segment-04.png"/>
 
-Тъй като не знаем коя **точка** е от ляво и коя е от дясно, ще си направим две променливи, които да ни отбелязват това. Тъй като **лявата точка** е винаги тази с по-малката **х координата**, ще ползваме **`Math.Min(…)`**, за да я намерим. Съответно, **дясната** е винаги тази с по-голяма **х координата** и ползваме **`Math.Max(…)`**. Ще намерим и разстоянието от **точката x** до **двете точки**. Понеже не знаем положението им една спрямо друга, ще използваме **`Math.Abs(…)`**, за да получим положителен резултат.
+Тъй като не знаем коя **точка** е от ляво и коя е от дясно, ще си направим две променливи, които да ни отбелязват това. Тъй като **лявата точка** е винаги тази с по-малката **х координата**, ще ползваме функцията **`min()`**, за да я намерим. (За да използваме тази функция ще се наложи да включим библиотеката **`algorithm`** в началото.) Съответно, **дясната** е винаги тази с по-голяма **х координата** и ползваме функцията **`max()`**. Ще намерим и разстоянието от **точката x** до **двете точки**. Понеже не знаем положението им една спрямо друга, ще използваме **`fabs()`** от библиотеката **`cmath`**, за да получим положителен резултат.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-05.png)
+<img src = "/assets/chapter-8-1-images/03.Point-on-segment-05.png"/>
 
-По-малкото от двете **разстояния** ще намерим ползвайки **`Math.Min(…)`**.
+По-малкото от двете **разстояния** ще намерим ползвайки **`min()`**.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-06.png)
+<img src = "/assets/chapter-8-1-images/03.Point-on-segment-06.png"/>
 
 Остава да намерим дали **точката** е на линията или извън нея. Точката ще се намира **на линията** винаги, когато тя **съвпада** с някоя от другите две точки или х координатата ѝ се намира **между тях**. В противен случай, точката се намира **извън линията**. След проверката изкарваме едното от двете съобщения, спрямо това коя проверка е удовлетворена.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-07.png)
+<img src = "/assets/chapter-8-1-images/03.Point-on-segment-07.png"/>
 
-Накрая принтираме **разстоянието**, намерено преди това.
+Накрая извеждаме **разстоянието**, намерено преди това.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/03.Point-on-segment-08.png)
+<img src = "/assets/chapter-8-1-images/03.Point-on-segment-08.png"/>
 
 #### Тестване в Judge системата
 
@@ -211,7 +209,7 @@
 
 Да се напише програма, която проверява дали дадена точка (с координати **x** и **y**) е **вътре** или **извън** следната фигура:
  
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/04.Point-in-figure-01.png)
+<img src = "/assets/chapter-8-1-images/04.Point-in-figure-01.png"/>
 
 #### Вход
 
@@ -237,22 +235,22 @@
 
 За да разберем дали **точката** е във фигурата, ще разделим **фигурата** на 2 четириъгълника:
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/04.Point-in-figure-02.png)
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/04.Point-in-figure-03.png)
+<img src = "/assets/chapter-8-1-images/04.Point-in-figure-02.png"/>
+<img src = "/assets/chapter-8-1-images/04.Point-in-figure-03.png"/>
 
 Достатъчно условие е **точката** да се намира в един от тях, за да се намира във **фигурата**.
 
 Четем от конзолата входните данни:
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/04.Point-in-figure-04.png)
+<img src = "/assets/chapter-8-1-images/04.Point-in-figure-04.png"/>
 
 Ще създадем две променливи, които ще отбелязват дали **точката** се намира в някой от правоъгълниците.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/04.Point-in-figure-05.png)
+<img src = "/assets/chapter-8-1-images/04.Point-in-figure-05.png"/>
 
 При отпечатването на съобщението ще проверим дали някоя от променливите е приела стойност **`true`**. Достатъчно е **само една** от тях да е **`true`**, за да се намира точката във фигурата.
 
-![](/assets/old-images/old-imagesassets/chapter-8-1-images/04.Point-in-figure-06.png)
+<img src = "/assets/chapter-8-1-images/04.Point-in-figure-06.png"/>
 
 #### Тестване в Judge системата
 
