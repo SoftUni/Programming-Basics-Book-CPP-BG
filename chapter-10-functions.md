@@ -110,14 +110,14 @@
 ```cpp
 #include <iostream>
 using namespace std;
-void printSentence();
+void printSentence();  // Деклариране на функцията printSentence
 int main() {
-    printSentence();
+    printSentence();   // Извикване на функцията printSentence
     return 0;
 }
-void printSentence() {
-    cout << "I am learning functions.";
-}
+void printSentence() {                     // Дефиниция на
+    cout << "I am learning functions.";    // функцията
+}                                          // printSentence
 ```
 
 
