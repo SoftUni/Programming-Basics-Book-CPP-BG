@@ -40,7 +40,7 @@
 
 Нека разгледаме следния пример за **деклариране на функция**, намираща лицето на квадрат по зададена страна `num`.
 
- <img src = "/assets/chapter-10-assets/02_example_function_01.PNG"/>
+<img src = "/assets/chapter-10-assets/02_example_function_01.PNG"/>
 
 Това е еквивалетно на:
 
