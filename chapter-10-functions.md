@@ -40,11 +40,11 @@
 
 Нека разгледаме следния пример за **деклариране на функция**, намираща лицето на квадрат по зададена страна `num`.
 
-<img src = "/assets/chapter-10-assets/02_example_function_01.PNG"/>
+        <img src = "/assets/chapter-10-assets/02_example_function_01.PNG"/>
 
 Това е еквивалетно на:
 
- <img src = "/assets/chapter-10-assets/02_example_function_02.PNG"/>
+<img src = "/assets/chapter-10-assets/02_example_function_02.PNG"/>
 
 По-нататък ще коментираме защо е така.
 Нека обърнем внимание на следното - даденият програмен фрагмент **само съобщава** на компилатора или интерпретатора, че в програмата **ще бъде дефинирана и използвана**  функцията **`getSquare`**.
