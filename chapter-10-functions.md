@@ -106,6 +106,7 @@
 ### Обобщение и допълнение 
 
 https://repl.it/@Denis77/MeekSteelScriptinglanguages
+https://repl.it/@nakov/CPlusPlus-Hello
 
 ### Пример: празна касова бележка
 
