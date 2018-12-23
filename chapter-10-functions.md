@@ -280,21 +280,21 @@ int main() {
 
 Преди да създадем функция за принтиране на един ред с дадени начало и край, прочитаме входното число от конзолата. След това избираме смислено име за функцията, което описва целта й, например **`PrintLine`**, и го имплементираме.
 
-![](/assets/old-images/chapter-10-images/08.Print-triangle-01.png)
+<img src = "/assets/chapter-10-assets/09_triangle_01"/>
 
 От задачите за рисуване на конзолата си спомняме, че е добра практика **да разделяме фигурата на няколко части**. За наше улеснение ще разделим триъгълника на три части - горна, средна линия и долна.
 
 Следващата ни стъпка е с цикъл да разпечатаме **горната половина** от триъгълника:
 
-![](/assets/old-images/chapter-10-images/08.Print-triangle-02.png)
+<img src = "/assets/chapter-10-assets/09_triangle_02"/>
 
 След това разпечатваме **средната линия**:
 
-![](/assets/old-images/chapter-10-images/08.Print-triangle-03.png)
+<img src = "/assets/chapter-10-assets/09_triangle_03"/>
 
 Накрая разпечатваме **долната част** от триъгълника, като този път стъпката на цикъла намалява.
 
-![](/assets/old-images/chapter-10-images/08.Print-triangle-04.png)
+<img src = "/assets/chapter-10-assets/09_triangle_04"/>
 
 #### Тестване в Judge системата
 
