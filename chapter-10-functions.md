@@ -298,7 +298,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#2](https://judge.softuni.bg/Contests/Practice/Index/594#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#2](https://judge.softuni.bg/Contests/Practice/Index/1374#2).
 
 
 ### Пример: рисуване на запълнен квадрат
