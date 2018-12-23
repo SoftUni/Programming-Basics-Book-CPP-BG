@@ -196,9 +196,11 @@ int main() {
 
 След това ще създадем и **още една функция**, която ще извиква една след друга трите функции, които написахме до момента:
 
+<img src = "/assets/chapter-10-assets/04_receipt_02.PNG"/>
+
 Накрая ще **извикаме** функцията **`printReceipt`** от тялото на главната **`main`** функция за нашата програма:
 
-![](/assets/old-images/chapter-10-images/04.Print-receipt-03.png)
+<img src = "/assets/chapter-10-assets/04_receipt_03.PNG"/>
 
 #### Тестване в Judge системата
 
