@@ -327,7 +327,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#3](https://judge.softuni.bg/Contests/Practice/Index/594#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#3](https://judge.softuni.bg/Contests/Practice/Index/1374#3).
 
 
 ## Връщане на резултат от функция
