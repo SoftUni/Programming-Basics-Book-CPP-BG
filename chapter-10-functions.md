@@ -128,8 +128,17 @@ void printSentence() {                     // Дефиниция на
 Какъв е другият подход? Нека видим следната програма, решаваща същата задача.
 
 ```cpp
+#include <iostream>
+using namespace std;
+void printSentence() {                     // Едновременно деклариране и
+    cout << "I am learning functions.";    // дефиниция на функцията
+}                                          // printSentence
+int main() {
+    printSentence();
+    return 0;
+}
 
-
+```
 Накрая ще **извикаме** функцията **`PrintReceipt`** от тялото на главната **`Main`** функция за нашата програма:
 
 ![](/assets/old-images/chapter-10-images/04.Print-receipt-03.png)
