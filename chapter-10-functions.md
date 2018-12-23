@@ -315,15 +315,15 @@ int main() {
 
 Първата ни стъпка е да прочетем входа от конзолата. След това трябва да създадем функция, която ще принтира първия и последен ред, тъй като те са еднакви. Нека не забравяме, че трябва да й дадем **описателно име** и да й зададем като **параметър** дължината на страната. Ще използваме конструктора **`new string`**. 
 
-![](/assets/old-images/chapter-10-images/09.Draw-filled-square-01.png)
+<img src = "/assets/chapter-10-assets/10_square_01.PNG"/>
 
 Следващата ни стъпка е да създадем функция, която ще рисува на конзолата средните редове. Отново задаваме описателно име, например **`PrintMiddleRow`**.
 
-![](/assets/old-images/chapter-10-images/09.Draw-filled-square-02.png)
+<img src = "/assets/chapter-10-assets/10_square_02.PNG"/>
 
 Накрая извикваме създадените функции в главния функция **`Main()`** на програмата, за да нарисуваме целия квадрат:
 
-![](/assets/old-images/chapter-10-images/09.Draw-filled-square-03.png)
+<img src = "/assets/chapter-10-assets/10_square_03.PNG"/>
 
 #### Тестване в Judge системата
 
