@@ -225,7 +225,7 @@ int main() {
 
 Нека разгледаме примера за декларация на функция, която има няколко параметъра от различен тип.
 
-![](/assets/old-images/chapter-10-images/05.Method-parameters-03.png)
+<img src = "/assets/chapter-10-assets/06_data_function.PNG"/>
 
 ### Пример: знак на цяло число
 
