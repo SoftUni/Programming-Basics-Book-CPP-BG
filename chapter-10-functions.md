@@ -116,11 +116,14 @@
 // Първи подход
 #include <iostream>    
 using namespace std;
+// Декларираме
 void printSentence();  
 int main() {
+    // Извикваме
     printSentence();   
     return 0;
 }
+// Дефинираме
 void printSentence() {              
     cout << "I am learning functions.";
 }                     
@@ -133,10 +136,14 @@ void printSentence() {
 // Втори подход
 #include <iostream>    
 using namespace std;
+// Декрарираме и
+// дефиниарме
+// едновременно
 void printSentence() {                     
     cout << "I am learning functions.";    
 }                                        
 int main() {
+    // Извикваме
     printSentence();
     return 0;
 }
