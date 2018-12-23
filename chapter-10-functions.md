@@ -123,7 +123,7 @@ void printSentence() {                     // Дефиниция на
     cout << "I am learning functions.";    // функцията
 }                                          // printSentence
 ```
-Можете да тествате примера онлайн:  https://repl.it/@Denis77/printSentence .
+Можете да тествате примера онлайн:  https://repl.it/@Denis77/printSentence1 .
 
 Какъв е другият подход? Нека видим следната програма, решаваща същата задача.
 
