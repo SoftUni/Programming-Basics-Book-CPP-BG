@@ -112,7 +112,7 @@
 * Извикваме функцията printSentence в главната main (може и в друга функция, при други условия).
 
 ```cpp
-#include <iostream>
+#include <iostream>    // Първи подход
 using namespace std;
 void printSentence();  // Деклариране на функцията printSentence
 int main() {
@@ -128,7 +128,7 @@ void printSentence() {                     // Дефиниция на
 Какъв е другият подход? Нека видим следната програма, решаваща същата задача.
 
 ```cpp
-#include <iostream>
+#include <iostream>                        // Втори подход
 using namespace std;
 void printSentence() {                     // Едновременно деклариране и
     cout << "I am learning functions.";    // дефиниция на функцията
