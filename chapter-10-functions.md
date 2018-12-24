@@ -671,7 +671,7 @@ var division = Divide(1, 3);
 Дефинирайте функция **`getMin(int a, int b)`** и я имплементирайте, след което я извикайте от главната програма, както е показано по-долу. За да намерите минимума на три числа, намерете първо минимума на първите две от тях и след това минимума на резултата и третото число:
 
 ```cpp
-int min = GetMin(GetMin(num1, num2), num3);
+int min = getMin(getMin(num1, num2), num3);
 ```
 
 #### Тестване в Judge системата
@@ -693,7 +693,7 @@ int min = GetMin(GetMin(num1, num2), num3);
 
 Примерна дефиниция на функцията:
 
-<img src = "/assets/chapter-10-assets/20_(in)correct_02.PNG"/>
+<img src = "/assets/chapter-10-assets/21_repeatstr.PNG"/>
 
 #### Тестване в Judge системата
 
