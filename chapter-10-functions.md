@@ -855,4 +855,4 @@ string integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#14](https://judge.softuni.bg/Contests/Practice/Index/594#14).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#14](https://judge.softuni.bg/Contests/Practice/Index/1374#14).
