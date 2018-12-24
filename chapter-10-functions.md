@@ -689,12 +689,6 @@ int min = getMin(getMin(num1, num2), num3);
 |---|---|---|---|
 |str<br>2|strstr|roki<br>6|rokirokirokirokirokiroki|
 
-#### Насоки и подсказки
-
-Примерна дефиниция на функцията:
-
-<img src = "/assets/chapter-10-assets/21_repeatstr.PNG"/>
-
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#9](https://judge.softuni.bg/Contests/Practice/Index/1374#9).
@@ -716,12 +710,12 @@ int min = getMin(getMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#10](https://judge.softuni.bg/Contests/Practice/Index/594#10).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#10](https://judge.softuni.bg/Contests/Practice/Index/1374#10).
 
 
 ### Задача: число към бройна система
 
-Да се напише функция **`IntegerToBase(number, toBase)`**, която получава като параметри цяло число и основа на бройна система и връща входното число, конвертирано към посочената бройна система. След това, резултатът да се отпечата на конзолата. Входното число винаги ще е в бройна система 10, а параметърът за основа ще е между 2 и 10.
+Да се напише функция **`integerToBase(number, toBase)`**, която получава като параметри цяло число и основа на бройна система и връща входното число, конвертирано към посочената бройна система. След това, резултатът да се отпечата на конзолата. Входното число винаги ще е в бройна система 10, а параметърът за основа ще е между 2 и 10.
 
 #### Примерен вход и изход
 
@@ -737,9 +731,9 @@ int min = getMin(getMin(num1, num2), num3);
 * **Разделяме** числото на основата.
 * **Повтаряме** алгоритъма, докато входното число не стане 0.
 
-Допишете липсващата логика в функцията по-долу:
+Допишете липсващата логика във функцията по-долу:
 
-```csharp
+```cpp
 static string IntegerToBase(int number, int toBase) {
     string result = "";
     while (number != 0) {
