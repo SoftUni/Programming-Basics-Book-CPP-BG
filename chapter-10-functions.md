@@ -378,15 +378,15 @@ int main() {
 
 Първият е да **присвоим резултата като стойност на променлива** от съвместим тип:
 
-![](/assets/old-images/chapter-10-images/12.Return-value-01.png)
+<img src = "/assets/chapter-10-assets/13_example_01.PNG"/>
 
 Вторият е резултатът да бъде използван **в израз**:
 
-![](/assets/old-images/chapter-10-images/12.Return-value-02.png)
+<img src = "/assets/chapter-10-assets/13_example_02.PNG"/>
 
-Третият е да **подадем** резултата от работата на функцията към **друг функция**:
+Третият е да **подадем** резултата от работата на функцията към **друга функция**:
 
-![](/assets/old-images/chapter-10-images/12.Return-value-03.png)
+<img src = "/assets/chapter-10-assets/13_example_03.PNG"/>
 
 ### Пример: пресмятане на лицето на триъгълник
 
