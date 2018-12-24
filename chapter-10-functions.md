@@ -771,7 +771,7 @@ string integerToBase(int number, int toBase) {
 
 Дефинирайте и имплементирайте посочените четири функции.
 
-В **`ReadAndProcessMessage()`** прочетете типа съобщение от конзолата и според прочетения тип прочетете останалите данни (още един два или три реда). След това извикайте съответната функция за печатане на съответния тип съобщение.
+В **`readAndProcessMessage()`** прочетете типа съобщение от конзолата и според прочетения тип прочетете останалите данни (още един два или три реда). След това извикайте съответната функция за печатане на съответния тип съобщение.
 
 #### Тестване в Judge системата
 
@@ -809,7 +809,7 @@ string integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#13](https://judge.softuni.bg/Contests/Practice/Index/594#13).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#13](https://judge.softuni.bg/Contests/Practice/Index/1374#13).
 
 
 ### Задача: криптиране на низ
