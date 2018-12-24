@@ -402,11 +402,11 @@ int main() {
 
 Първата ни стъпка е да прочетем входа. След това **създаваме** функция, но този път внимаваме при **декларацията** да подадем коректния **тип** данни, които искаме функцията да върне, а именно **`double`**.
 
-![](/assets/old-images/chapter-10-images/13.Calculate-triangle-area-01.png)
+<img src = "/assets/chapter-10-assets/14_triangleArea_01.PNG"/>
 
 Следващата ни стъпка е да **извикаме новата** функция от нашата **`Main()`** функция и да **запишем върнатата стойност в подходяща променлива**.
 
-![](/assets/old-images/chapter-10-images/13.Calculate-triangle-area-02.png)
+<img src = "/assets/chapter-10-assets/14_triangleArea_02.PNG"/>
 
 #### Тестване в Judge системата
 
