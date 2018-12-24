@@ -378,7 +378,7 @@ int main() {
 
 Първият е да **присвоим резултата като стойност на променлива** от съвместим тип:
 
-<img src = "/assets/chapter-10-assets/13_example_01.PNG"/>
+<img src = "/assets/chapter-10-assets/13_example_01.png"/>
 
 Вторият е резултатът да бъде използван **в израз**:
 
