@@ -759,7 +759,7 @@ string integerToBase(int number, int toBase) {
 
 Задачата да се реши с дефиниране на четири функции: **`showSuccessMessage()`**, **`showWarningMessage()`**, **`showErrorMessage()`** и **`readAndProcessMessage()`**, като само последната функция да се извиква от главната **`main()`** функция:
 
-![](/assets/old-images/chapter-10-images/23.Notifications-01.png)
+<img src = "/assets/chapter-10-images/22_messages.PNG"/>
 
 #### Примерен вход и изход
 
