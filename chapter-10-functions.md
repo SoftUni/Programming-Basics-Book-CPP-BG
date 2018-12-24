@@ -734,7 +734,7 @@ int min = getMin(getMin(num1, num2), num3);
 Допишете липсващата логика във функцията по-долу:
 
 ```cpp
-static string IntegerToBase(int number, int toBase) {
+string integerToBase(int number, int toBase) {
     string result = "";
     while (number != 0) {
         // Implement the missing conversion logic
@@ -745,7 +745,7 @@ static string IntegerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата 
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#11](https://judge.softuni.bg/Contests/Practice/Index/594#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#11](https://judge.softuni.bg/Contests/Practice/Index/1374#11).
 
 
 ### Задача: известия
@@ -757,7 +757,7 @@ static string IntegerToBase(int number, int toBase) {
 
 На конзолата да се отпечата **всяко прочетено съобщение**, форматирано в зависимост от неговия **`messageType`**. Като след заглавния ред за всяко съобщение да се отпечатат толкова на брой символа **`=`**, **колкото е дълъг** съответният **заглавен ред** и да се сложи по един **празен ред** след всяко съобщение (за по-детайлно разбиране погледнете примерите). 
 
-Задачата да се реши с дефиниране на четири функции: **`ShowSuccessMessage()`**, **`ShowWarningMessage()`**, **`ShowErrorMessage()`** и **`ReadAndProcessMessage()`**, като само последната функция да се извиква от главната **`Main()`** функция:
+Задачата да се реши с дефиниране на четири функции: **`showSuccessMessage()`**, **`showWarningMessage()`**, **`showErrorMessage()`** и **`readAndProcessMessage()`**, като само последната функция да се извиква от главната **`main()`** функция:
 
 ![](/assets/old-images/chapter-10-images/23.Notifications-01.png)
 
