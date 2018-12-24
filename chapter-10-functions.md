@@ -279,7 +279,7 @@ int main() {
 
 Следващата ни стъпка е с цикъл да разпечатаме **горната половина** от триъгълника:
 
-<img src = "/assets/chapter-10-images/09_triangle_01.PNG"/>
+<img src = "/assets/chapter-10-images/09_triangle_02.PNG"/>
 
 След това разпечатваме **средната линия**:
 
