@@ -454,7 +454,7 @@ string str = firstName + " " + lastName + " is " + to_string(age) + " years old"
 
 **Декларираме променливите**, които ще използваме, като отново се стараем да изберем **подходящи имена**. Със **`cin`** четем подадените числа на конзолата. Типовете данни, които ще използваме ще бъдат **`int`** или **`double`**
 
-![](/assets/old-images/chapter-2-2-images/05.Daily-earnings-01.png)
+![](/assets/chapter-2-2-images/daily-profit-01.png)
 
 Извършваме изчисленията: 
 
