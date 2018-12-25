@@ -249,7 +249,7 @@
 
 Книгата се издава и разпространява **на хартия** от СофтУни и хартиено копие може да се закупи от рецепцията на СофтУни (вж. https://softuni.bg/contacts).
 
-**Сорс кодът** на книгата може да се намери в GitHub: https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG.
+**Сорс кодът** на книгата може да се намери в GitHub: https://github.com/SoftUni/Programming-Basics-Book-CPP-BG.
 
 Международен стандартен номер на книга ISBN: **TODO**.
 
