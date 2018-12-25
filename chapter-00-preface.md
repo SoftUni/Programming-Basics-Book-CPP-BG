@@ -221,7 +221,7 @@
 
 Настоящата книга по **основи на програмирането със C++** за начинаещи е достъпна за свободно ползване в Интернет от адрес:
 
-<p align="center"><strong><a href="https://csharp-book.softuni.bg">https://csharp-book.softuni.bg</a></strong></p>
+<p align="center"><strong><a href="https://cpp-book.softuni.bg">https://cpp-book.softuni.bg</a></strong></p>
 
 Това е **официалният сайт на книгата** и там ще бъде качвана нейната последна версия. Книгата е преведена огледално и на други езици за програмиране, посочени на нейния сайт.
 
