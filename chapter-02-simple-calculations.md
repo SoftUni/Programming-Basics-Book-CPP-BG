@@ -417,7 +417,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](/assets/old-images/chapter-2-images/Simpple-Calculations.png)
+![](/assets/chapter-2-2-images//Simpple-Calculations.png)
 
 Целта на този Empty Project e да добавяме в него **по един проект за всяка задача** от упражненията.
 
@@ -429,15 +429,19 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project…**]:
 
-![](/assets/old-images/chapter-2-images/Add-Project.png)
+![](/assets/chapter-2-2-images//Add-Project.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име “Square-Area”:
 
-![](/assets/old-images/chapter-2-images/Square-Area.png)
+![](/assets/chapter-2-2-images//Square-Area.png)
 
 Вече имаме solution с едно конзолно приложение в него. Остава да напишем **кода за решаване на задачата**. За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
-![](/assets/old-images/chapter-2-images/01.Square-area-03.png)
+![](/assets/chapter-2-2-images//Add-Item.png)
+![](/assets/chapter-2-2-images//Add-Main.png)
+![](/assets/chapter-2-2-images//Main.png)
+![](/assets/chapter-2-2-images//Square-Area-Solution.png)
+
 
 Кодът въвежда цяло число чрез **`a = int.Parse(Console.ReadLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
 
