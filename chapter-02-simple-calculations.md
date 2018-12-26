@@ -413,11 +413,11 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Избираме от диалоговия прозорец [**Visual C++**] ->[**Empty Project**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//Empty-Project.png)
+![](/assets/chapter-2-2-images//00.Empty-Project.01.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](/assets/chapter-2-2-images//Simpple-Calculations.png)
+![](/assets/chapter-2-2-images//00.Empty-project.02.png)
 
 Целта на този Empty Project e да добавяме в него **по един проект за всяка задача** от упражненията.
 
@@ -429,35 +429,35 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project…**]:
 
-![](/assets/chapter-2-2-images//Add-Project.png)
+![](/assets/chapter-2-2-images//00.Empty-Project.03.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име “Square-Area”:
 След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp** 
 
-![](/assets/chapter-2-2-images//Square-Area.png)
+![](/assets/chapter-2-2-images//01.Square-Area.01.png)
 
-![](/assets/chapter-2-2-images//Add-Item.png)
+![](/assets/chapter-2-2-images//01.Square-Area.02.png)
 
-![](/assets/chapter-2-2-images//Add-Main.png)
+![](/assets/chapter-2-2-images//01.Square-Area.03.png)
 
 Тъй като сме избрали  **Empty Project**, във файла няма нищо написано. Както знаем, на първия ред е необходимо да добавим библиотеката **`<iostream>`**, а после включваме и именованото простраство (**namespace**) **std**. След това пишем **main** функцията, чрез която работата на нашата програма е възможна.
 
-![](/assets/chapter-2-2-images//Main.png)
+![](/assets/chapter-2-2-images//01.Square-Area.04.png)
 
 Остава да добавим **кода за решаване на задачата**. За целта отиваме в тялото на **`main`** функцията и въвеждаме следния код:
 
-![](/assets/chapter-2-2-images//Square-Area-Solution.png)
+![](/assets/chapter-2-2-images//01.Square-Area.05.png)
 
 Кодът въвежда цяло число чрез **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
 
-![](/assets/old-images/chapter-2-images/01.Square-area-04.png)
+![](/assets/old-images/chapter-2-images/00.Square-area-01.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/529#0](https://judge.softuni.bg/Contests/Practice/Index/529#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets//chapter-2-2-images/Square-Area-Judge.png)
-![](/assets//chapter-2-2-images/Square-Area-Judge-Res.png)
+![](/assets//chapter-2-2-images/01.Square-Area.06)
+![](/assets//chapter-2-2-images/01.Square-Area.07.png)
 
 ### Задача:	от инчове към сантиметри
 
