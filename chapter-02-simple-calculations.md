@@ -467,15 +467,15 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Първо създаваме **нов C++ конзолен проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.01.png)
+![](/assets/old-images/chapter-2-images/01.Square-area-01.png
 
 Избираме [**Visual C++**] -> [**Empty Project**] и задайте име “Inches-to-Centimeters”:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.02.png)
+![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.01.png)
 
 Следва да напишем **кода на програмата**:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.03.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.02.png)
 
 **Стартираме програмата** с [**Ctrl+F5**]:
 
@@ -484,11 +484,9 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
 Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
 
-
-
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-06.png)
+![](/assets//chapter-2-2-images/02.Inches-to-centimeters-04.png)
 
 Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
 
@@ -500,7 +498,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [**Solution Explorer**] на Visual Studio:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-12.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.03.png)
 
 Натискаме пак [**Ctrl+F5**]. Този път трябва да се стартира другият проект:
 
