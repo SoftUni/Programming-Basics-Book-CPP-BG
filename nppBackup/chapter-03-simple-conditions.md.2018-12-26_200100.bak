@@ -121,7 +121,7 @@ else {
 
 Задачата можем да решим с помощта на една **`if-else`** конструкция и оператора **`%`**, който връща **остатък при деление** на две числа.
 
-![](/assets/chapter-3-images/03.Even-or-odd-02.PNG)
+![](/assets/old-images/chapter-3-images/03.Even-or-odd-02.png)
 
 #### Тестване в Judge системата
 
@@ -134,7 +134,7 @@ else {
 
 Първата ни задача е да **прочетем** двете числа. След което, чрез проста **`if-else`** конструкция, в съчетание с **оператора за по-голямо** (**`>`**), да направим проверка. Част от кода е замъглена умишлено, за да изпробваме наученото до момента.
 
-![](/assets/chapter-3-images/04.Greater-number-02.PNG)
+![](/assets/old-images/chapter-3-images/04.Greater-number-02.png)
 
 #### Тестване в Judge системата
 
@@ -147,24 +147,28 @@ else {
 
 В примера по-долу, на последния ред, на който се опитваме да отпечатаме променливата **`salary`**, която е дефинирана в **`if` конструкцията**, ще получим **грешка**, защото нямаме достъп до нея.
 
-![](/assets/chapter-3-images/00.Variable-scope-01.PNG)
+![](/assets/old-images/chapter-3-images/00.Variable-scope-01.png)
 
 ## Серии от проверки
 
 Понякога се налага да извършим серия от проверки, преди да решим какви действия ще изпълнява нашата програма. В такива случаи, можем да приложим конструкцията **`if-else if…-else` в серия**. За целта използваме следния формат: 
 
-```cplusplus
-if (условие) {
+```csharp
+if (условие)
+{
     // тяло на условната конструкция;
 }
-else if (условие2) {
+else if (условие2)
+{
     // тяло на условната конструкция;
 }
-else if (условие3) {
+else if (условие3)
+{
     // тяло на условната конструкция;
 }
 …
-else {
+else
+{
     // тяло на else-конструкция;
 }
 ```
@@ -173,33 +177,28 @@ else {
 
 Да се изпише число в интервала от 1 до 9 с текст на английски език (числото се чете от конзолата). Можем да прочетем числото и след това чрез **серия от проверки** отпечатваме съответстващата му английска дума:
 
-```cplusplus
-#include <iostream>
+```csharp
+int num = int.Parse(Console.ReadLine());
 
-using namespace std;
-
-int main()
+if (num == 1)
 {
-	int num;
-	cin >> num;
-	
-	if (num == 1) {
-		cout << "one" << endl;
-	}
-	else if (num == 2) {
-		cout << "two" << endl;
-	}
-	else if (…)  {
-		…
-	} 
-	else if (num == 9)  {
-		cout << "nine" << endl;
-	} 
-	else  {
-		cout << "number too big" << endl;
-	}
-
-	return 0;
+    Console.WriteLine("one");
+}
+else if (num == 2)
+{
+    Console.WriteLine("two");
+}
+else if (…) 
+{
+    …
+} 
+else if (num == 9)
+{
+    Console.WriteLine("nine");
+} 
+else 
+{
+    Console.WriteLine("number too big");
 }
 ```
 
