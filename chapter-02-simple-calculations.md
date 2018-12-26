@@ -536,7 +536,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](/assets//chapter-2-2-images/02.Inches-to-centimeters.05.png)
+![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.05.png)
 
 ### Задача: поздрав по име
 
