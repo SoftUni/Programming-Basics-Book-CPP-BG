@@ -401,25 +401,25 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Нека затвърдим наученото в тази глава с няколко задачи.
 
-### Празно Visual Studio решение (Blank Solution)
+### Празно Visual Studio решение (Empty Project)
 
-Започваме, като създадем празно решение **(Blank Solution)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко проекта** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимосвързани проекта**.
-В настоящото практическо занимание ще използваме **Blank Solution с няколко проекта**, за да организираме решенията на задачите от упражненията – всяка задача в отделен проект и всички проекти в общ solution.
+Започваме, като създадем празно решение **(Empty Project)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко проекта** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимосвързани проекта**.
+В настоящото практическо занимание ще използваме **Empty Project с няколко проекта**, за да организираме решенията на задачите от упражненията – всяка задача в отделен проект и всички проекти в общ solution.
 
 *	Стартираме Visual Studio.
 * Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
 
 ![](/assets/old-images/chapter-2-images/00.Blank-solution-01.png)
 
-Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Calculations”:
+Избираме от диалоговия прозорец [**Visual C++**] ->[**Empty Project**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//00.Blank-solution-02-C++.png)
+![](/assets/chapter-2-2-images//Empty-Project.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](/assets/old-images/chapter-2-images/00.Blank-solution-03.png)
+![](/assets/old-images/chapter-2-images/Simpple-Calculations.png)
 
-Целта на този blank solution e да добавяме в него **по един проект за всяка задача** от упражненията.
+Целта на този Empty Project e да добавяме в него **по един проект за всяка задача** от упражненията.
 
 ### Задача:	пресмятане на лице на квадрат
 
@@ -429,11 +429,11 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project…**]:
 
-![](/assets/old-images/chapter-2-images/01.Square-area-01.png)
+![](/assets/old-images/chapter-2-images/Add-Project.png)
 
-Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ конзолно приложение** с име “Square-Area”:
+Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име “Square-Area”:
 
-![](/assets/old-images/chapter-2-images/01.Square-area-02.png)
+![](/assets/old-images/chapter-2-images/Square-Area.png)
 
 Вече имаме solution с едно конзолно приложение в него. Остава да напишем **кода за решаване на задачата**. За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
