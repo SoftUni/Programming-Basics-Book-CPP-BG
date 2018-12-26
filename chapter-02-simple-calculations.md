@@ -311,7 +311,7 @@ int expr = (3 + 5) * (4 – 2);
 
 Да напишем програма, която въвежда дължините на двете основи на трапец и неговата височина (по едно дробно число на ред) и пресмята **лицето на трапеца** по стандартната математическа формула:
 
-```csharp
+```cplusplus
 double b1, b2, h;
 cin >> b1;    
 cin >> b2;
@@ -345,8 +345,8 @@ Trapezoid area = 17.5
 ```cplusplus
 cout << "Enter circle radius. r = ";
 double r;
-double pi = 3.14159265359;
 cin >> r;
+double pi = 3.14159265359;
 cout << "Area = " << pi * r * r << endl;
 cout << "Perimeter = " << 2 * pi * r << endl;
 ```
