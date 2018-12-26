@@ -450,7 +450,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Кодът въвежда цяло число чрез **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
 
-![](/assets/old-images/chapter-2-images/00.Square-area-01.png)
+![](/assets/old-images/chapter-2-images/00.Square-area-01.jpg)
 
 #### Тестване в Judge системата
 
