@@ -413,7 +413,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Избираме от диалоговия прозорец [**Visual C++**] ->[**Empty Project**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//New-Empty-Project.png)
+![](/assets/chapter-2-2-images//Empty-Project.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
