@@ -456,7 +456,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/529#0](https://judge.softuni.bg/Contests/Practice/Index/529#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets//chapter-2-2-images/01.Square-Area.06.png)
+
 ![](/assets//chapter-2-2-images/01.Square-Area.07.png)
 
 ### Задача:	от инчове към сантиметри
