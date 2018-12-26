@@ -413,7 +413,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Избираме от диалоговия прозорец [**Visual C++**] ->[**Empty Project**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//00.Empty-Project.01.png)
+
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
@@ -450,7 +450,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Кодът въвежда цяло число чрез **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
 
-![](/assets/old-images/chapter-2-images/00.Square-area-01.png)
+![](/assets/old-images/chapter-2-images/01.Square-area-01.png)
 
 #### Тестване в Judge системата
 
