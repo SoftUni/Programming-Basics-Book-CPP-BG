@@ -432,10 +432,10 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 ![](/assets/chapter-2-2-images//Add-Project.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име “Square-Area”:
+След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp** 
 
 ![](/assets/chapter-2-2-images//Square-Area.png)
 
-След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp** 
 ![](/assets/chapter-2-2-images//Add-Item.png)
 
 ![](/assets/chapter-2-2-images//Add-Main.png)
@@ -454,12 +454,10 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#0](https://judge.softuni.bg/Contests/Practice/Index/504#0). Трябва да получите 100 точки (напълно коректно решение):
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/529#0](https://judge.softuni.bg/Contests/Practice/Index/529#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets/old-images/chapter-2-images/01.Square-area-05.png)
-
-![](/assets/old-images/chapter-2-images/01.Square-area-06.png)
-
+![](/assets//chapter-2-2-images/Square-Area-Judge.png)
+![](/assets//chapter-2-2-images/Square-Area-Judge-Res.png)
 
 ### Задача:	от инчове към сантиметри
 
