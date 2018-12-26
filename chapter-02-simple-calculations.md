@@ -467,15 +467,15 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Първо създаваме **нов C++ конзолен проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-01.png)
+![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.01.png)
 
-Избираме [**Visual C++**] -> [**Windows**] -> [**Console Application**] и задайте име “Inches-to-Centimeters”:
+Избираме [**Visual C++**] -> [**Empty Project**] и задайте име “Inches-to-Centimeters”:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-02.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.02.png)
 
 Следва да напишем **кода на програмата**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-03.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.03.png)
 
 **Стартираме програмата** с [**Ctrl+F5**]:
 
