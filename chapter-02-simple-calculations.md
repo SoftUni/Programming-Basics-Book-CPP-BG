@@ -488,6 +488,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
 ![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.04.png)
+
 ![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-06.png)
 
 Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
