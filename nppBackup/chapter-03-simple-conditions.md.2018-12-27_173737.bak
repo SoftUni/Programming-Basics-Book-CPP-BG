@@ -400,7 +400,7 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
  
  В подпрозореца **Solution Explorer** кликваме с десен клавиш върху **Source Files** (**Solution 'Simple Condition'** -> **ExcelentResult**)
  
- ![](/assets/chapter-3-images/09.Excellent-result-02-03.PNG)
+ ![](/assets/chapter-3-images/09.Excellent-result-02-02.PNG)
  
  Oт появилото се контекстно меню избираме **Add** -> **New item...**
  
