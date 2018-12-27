@@ -354,7 +354,7 @@ cout << "Perimeter = " << 2 * pi * r << endl;
 ```
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets/old-images/chapter-2-images/00.Circle-area-01-C++.jpg)
+![](/assets//chapter-2-2-images/00.Circle-area.01.jpg)
 
 #### Тестване в Judge системата
 
