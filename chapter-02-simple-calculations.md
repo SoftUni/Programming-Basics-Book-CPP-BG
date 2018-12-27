@@ -579,7 +579,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
-![](/assets/old-images/chapter-2-images/04.Concatenate-data-02.png)
+![](/assets//chapter-2-2-images/04.Concatenate.01.png)
 
 На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
 
@@ -601,7 +601,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Отново трябва да добавим към текущото Visual Studio решение още един **C++ проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](/assets/old-images/chapter-2-images/05.Trapezoid-area-02.png)
+![](/assets//chapter-2-2-images/05.Trapezoid-area-01.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
