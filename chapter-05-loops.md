@@ -32,11 +32,11 @@
 
 Можем да решим задачата с **`for` цикъл** , с който преминаваме с променливата **`i`** през числата от 1 до 100 и ги печатаме в тялото на цикъла:
 
-![](/assets/old-images/chapter-5-images/01.Numbers-1-to-100-01.png)
+![](/assets/chapter-5-images/01.Numbers-1-to-100-01.png)
 
 **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме**:
 
-![](/assets/old-images/chapter-5-images/01.Numbers-1-to-100-02.png)
+![](/assets/chapter-5-images/01.Numbers-1-to-100-02.png)
 
 #### Тестване в Judge системата
 
