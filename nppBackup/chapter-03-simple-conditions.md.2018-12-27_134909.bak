@@ -309,16 +309,7 @@ int main()
 
 #### Насоки и подсказки
 
-Ако желаете програмата да може да разпознава както главни, така и малки букви при прочитането на мерните единици, то може да се използва функцията **`std::transform()`**, която да направи всички букви малки. Използвайте я в следния формат:
-```cplusplus
-std::transform(data.begin(), data.end(), data.begin(), ::tolower);
-```
-За да можете да използвате тази функция, трябва да включите **`algorithm`** файла в началото на програмата:
-```cplusplus
-#include <algorithm>
-```
-Не забравяйте също да включите и **`string`** файла, за да можете да декларирате и използвате променливи от тип `string`.
-Както виждаме от таблицата в условието, можем да конвертираме само **между метри и някаква друга мерна единица**. Следователно трябва първо да изчислим числото за преобразуване в метри. Затова трябва да направим набор от проверки, за да определим каква е входната мерна единица, а след това и за изходната мерна единица.
+Прочитаме си входните данни, като към прочитането на мерните единици можем да добавим функцията **`ToLower()`**, която ще направи всички букви малки. Както виждаме от таблицата в условието, можем да конвертираме само **между метри и някаква друга мерна единица**. Следователно трябва първо да изчислим числото за преобразуване в метри. Затова трябва да направим набор от проверки, за да определим каква е входната мерна единица, а след това и за изходната мерна единица.
 
 ![](/assets/chapter-3-images/08.Metric-converter-01.PNG)
 
@@ -335,13 +326,13 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 **Дебъгване** е процесът на „**закачане**“ към изпълнението на програмата, който ни позволява да проследим поетапно процеса на изпълнение. Можем да следим **ред по ред** какво се случва с нашата програма, какъв път следва, какви стойности имат дефинираните променливи на всяка стъпка от дебъгването и много други неща, които ни позволяват да откриваме грешки (**бъгове**).
 
-![](/assets/chapter-3-images/00.Debugging-01.PNG)
+![](/assets/old-images/chapter-3-images/00.Debugging-01.png)
 
 ### Дебъгване във Visual Studio
 
 Чрез натискане на бутона [**F10**], стартираме програмата в **debug режим**. Преминаваме към **следващия ред** отново с [**F10**]. 
 
-![](/assets/chapter-3-images/00.Debugging-02.PNG)
+![](/assets/old-images/chapter-3-images/00.Debugging-02.png)
 
 Чрез [**F9**] създаваме стопери – така наречените **breakpoints**, до които можем да стигнем директно използвайки [**F5**] при стартирането на програмата.
 
@@ -355,15 +346,15 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 Стартираме Visual Studio. Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
 
-![](/assets/chapter-3-images/00.Visual-studio-01.png)
+![](/assets/old-images/chapter-3-images/00.Visual-studio-01.png)
 
 Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Conditions”:  
 
-![](/assets/chapter-3-images/00.Visual-studio-02.png)
+![](/assets/old-images/chapter-3-images/00.Visual-studio-02.png)
 
 Сега имаме създаден празен Visual Studio Solution (без проекти в него):  
 
-![](/assets/chapter-3-images/00.Visual-studio-03.png)
+![](/assets/old-images/chapter-3-images/00.Visual-studio-03.png)
 
 ### Задача: проверка за отлична оценка
 
@@ -382,45 +373,32 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликваме с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Избираме [**Add**] -> [**New Project**]:  
 
- ![](/assets/chapter-3-images/09.Excellent-result-01.png)
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-01.png)
 
-Ще се отвори диалогов прозорец за избор на тип проект за създаване. Избираме в дървото в ляво **Visual C++**, а от централния списък избираме **Console Application** и задаваме име, например “`Excellent-Result`”:
+Ще се отвори диалогов прозорец за избор на тип проект за създаване. Избираме **C++ конзолно приложение** и задаваме име, например “`Excellent-Result`”:
 
- ![](/assets/chapter-3-images/09.Excellent-result-02.png)
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-02.png)
  
- Ще се появи нов прозорец, на който натискаме **Next >**.
- 
- ![](/assets/chapter-3-images/09.Excellent-result-02-01.PNG)
- 
- На следващия прозорец поставяме отметка на **Empty project** и махаме отметката от **Security Development Lifecycle (SDL) checks** и натискаме **Finish**.
- 
- ![](/assets/chapter-3-images/09.Excellent-result-02-02.PNG)
- 
- Visual Studio ще създаде конзолен проект към този solution.
- 
- В подпрозореца **Solution Explorer** кликваме с десен клавиш върху **Source Files** (**Solution 'Simple Condition'** -> **ExcelentResult**)
- 
- ![](/assets/chapter-3-images/09.Excellent-result-02-03.PNG)
- 
- Oт появилото се контекстно меню избираме **Add** -> **New item...**
- 
- В следващия диалогов прозорец избираме типа на файла да е **C++ File (.cpp)** и задаваме име на файла, например **Excelent-Result.cpp**.
- 
- ![](/assets/chapter-3-images/09.Excellent-result-02-04.PNG)
- 
-Вече имаме solution с едно конзолно приложение в него. Остава да напишем кода за решаване на задачата:
+Вече имаме solution с едно конзолно приложение в него. Остава да напишем кода за решаване на задачата.
 
- ![](/assets/chapter-3-images/01.Еxcellent-result-01.jpg)
+За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
+
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-03.png)
 
 **Стартираме** програмата с [**Ctrl+F5**], за да я **тестваме** с различни входни стойности:
 
- ![](/assets/chapter-3-images/09.Excellent-result-04.png)
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-04.png)
 
- ![](/assets/chapter-3-images/09.Excellent-result-05.png)
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-05.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#0](https://judge.softuni.bg/Contests/Practice/Index/1360#0).
+
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-06.png) 
+
+ ![](/assets/old-images/chapter-3-images/09.Excellent-result-07.png)
+
 
 ### Задача: отлична оценка или не
 
@@ -445,7 +423,7 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
  
 Следва да **напишем кода** на програмата. Може да си помогнем с примерния код от картинката:  
 
- ![](/assets/chapter-3-images/02.Excellent-or-not-01.PNG)
+ ![](/assets/old-images/chapter-3-images/02.Excellent-or-not-01.png)
 
 Включваме режим на **автоматично превключване към текущия проект** като кликнем върху главния Solution с десния бутон на мишката и изберем [**Set StartUp Projects…**]:  
 
@@ -482,7 +460,7 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Насоки и подсказки
 
-Отново, първо добавяме **нов C++ конзолен проект** в съществуващия solution. Проверката дали дадено число е четно, може да се реализира с оператора **`%`**, който ще ни върне **остатъка при целочислено деление на 2** по следния начин: **`int isEven = (num % 2 == 0)`**.
+Отново, първо добавяме **нов C++ конзолен проект** в съществуващия solution. В метода **`static void Main()`** трябва да напишем, кода на програмата. Проверката дали дадено число е четно, може да се реализира с оператора **`%`**, който ще ни върне **остатъка при целочислено деление на 2** по следния начин: **`var isEven = (num % 2 == 0)`**.
 
 Остава да **стартираме** програмата с [**Ctrl+F5**] и да я тестваме:  
 
@@ -510,9 +488,9 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 Както обикновено, първо трябва да добавим **нов C++ конзолен проект** в съществуващия solution. За кода на програмата ни е необходима единична **`if-else`** конструкция. Може да си помогнете частично с кода от картинката, който е умишлено замъглен, за да помислите как да го допишете сами:  
 
-![](/assets/chapter-3-images/04.Greater-number-02.PNG)
+![](/assets/old-images/chapter-3-images/04.Greater-number-02.png)
 
-След като сме готови, **стартираме** програмата с [**Ctrl+F5**] и я тестваме:
+След като сме готови с имплементацията на решението, **стартираме** програмата с [**Ctrl+F5**] и я тестваме:
 
 ![](/assets/old-images/chapter-3-images/04.Greater-number-01.png)
 
@@ -597,14 +575,7 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Насоки и подсказки
 
-Преди сравняване на думите, ги обърнете в долен регистър, за да не оказва влияние размера на буквите (главни/малки). За целта, използвайте функцията **`std::transform()`**, която да направи всички букви малки. Използвайте я в следния формат:
-```cplusplus
-std::transform(data.begin(), data.end(), data.begin(), ::tolower);
-```
-За да можете да използвате тази функция, трябва да включите **`algorithm`** файла в началото на програмата:
-```cplusplus
-#include <algorithm>
-```
+Преди сравняване на думите, ги обърнете в долен регистър, за да не оказва влияние размера на буквите (главни/малки): **`word = word.ToLower()`**.
 
 #### Тестване в Judge системата
 
@@ -716,3 +687,122 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#15](https://judge.softuni.bg/Contests/Practice/Index/1360#15).
 
+
+## Графично (desktop) приложение
+
+След като направихме няколко упражнения върху **условни конструкции (проверки)**, сега нека направим нещо по-интересно: приложение с графичен потребителски интерфейс за конвертиране на валути. Ще използваме знанията от тази глава, за да избираме измежду няколко налични валути и съответно да извършваме пресмятания по различен курс спрямо избраната валута.
+
+### Задача: конвертор за валути
+
+Нека разгледаме как да създадем графично (**GUI**) приложение за **конвертиране на валути**. Приложението ще изглежда приблизително като на картинката по-долу:  
+
+![](/assets/old-images/chapter-3-images/14.Converter-01.png)
+
+Този път създаваме нов **Windows Forms Application** с име “Currency-Converter”:
+
+![](/assets/old-images/chapter-3-images/14.Converter-02.png)
+
+**Нареждаме следните контроли** във формата: 
+* Една кутийка за въвеждане на число (**`NumericUpDown`**)
+* Един падащ списък с валути (**`ComboBox`**)
+* Текстов блок за резултата (**`Label`**) 
+* Няколко надписа (**`Label`**)
+
+Нагласяме **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:
+ 
+![](/assets/old-images/chapter-3-images/14.Converter-03.png)
+ 
+Задаваме следните **настройки на контролите**:
+
+* **За главната форма** (**`Form`**), която съдържа всички контроли:
+  * **`(name)`** = **`FormConverter`**
+  * **`Text`** = "**`Currency Converter`**"
+  * **`Font.Size`** = **`12`**
+  * **`MaximizeBox`** = **`False`**
+  * **`MinimizeBox`** = **`False`**
+  * **`FormBorderStyle`** = **`FixedSingle`**
+<br>
+
+* За **полето за въвеждане на число** (**`NumericUpDown`**):
+  * **`(name)`** = **`numericUpDownAmount`**
+  * **`Value`** = **`1`**
+  * **`Minimum`** = **`0`**
+  * **`Maximum`** = **`1000000`**
+  * **`TextAlign`** = **`Right`**
+  * **`DecimalPlaces`** = **`2`**
+<br>  
+
+* За **падащия списък с валутите** (**`ComboBox`**):
+  * **`(name)`** = **`comboBoxCurrency`**
+  * **`DropDownStyle`** = **`DropDownList`**
+  * **`Items`** =
+    * **EUR**
+    * **USD**
+    * **GBP**
+<br> 
+
+* За **текстовия блок за резултата** (**`Label`**):
+  * **`(name)`** = **`labelResult`**
+  * **`AutoSize`** = **`False`**
+  * **`BackColor`** = **`PaleGreen`**
+  * **`TextAlign`** = **`MiddleCenter`**
+  * **`Font.Size`** = **`14`**
+  * **`Font.Bold`** = **`True`**
+     
+Трябва да хванем следните **събития**, за да напишем C++ кода, който ще се изпълни при настъпването им:
+
+* Събитието **`ValueChanged`** на контролата за въвеждане на число **`numericUpDownAmount`**: 
+
+![](/assets/old-images/chapter-3-images/14.Converter-04.png)
+
+* Събитието **`Load`** на формата **`FormConverter`**
+* Събитието **`SelectedIndexChanged`** на падащия списък за избор на валута **`comboBoxCurrency`**
+  
+Ще използваме следния **C++ код** за обработка на събитията:
+
+```csharp
+private void FormConverter_Load(object sender, EventArgs e)
+{
+  this.comboBoxCurrency.SelectedItem = "EUR";
+}
+        
+private void numericUpDownAmount_ValueChanged(object sender, EventArgs e)
+{
+  ConvertCurrency();
+}
+        
+private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
+{
+  ConvertCurrency();
+}
+```
+
+Задачата на горния код е да избере при стартиране на програмата валута “**EUR**” и при промяна на стойностите в полето за сума или при смяна на валутата, да изчисли резултата, извиквайки **`ConvertCurrency()`** метода.
+
+Следва да напишем действието **`ConvertCurrency()`** за конвертиране на въведената сума от лева в избраната валута:
+ 
+```csharp
+private void ConvertCurrency()
+{
+  var originalAmount = this.numericUpDownAmount.Value;
+  var convertedAmount = originalAmount;
+  if (this.comboBoxCurrency.SelectedItem.ToString() == "EUR")
+      {
+        convertedAmount = originalAmount / 1.95583m;
+      }
+  else if (this.comboBoxCurrency.SelectedItem.ToString() == "USD")
+      {
+        convertedAmount = originalAmount / 1.80810m;
+      }
+  else if (this.comboBoxCurrency.SelectedItem.ToString() == "GBP")
+      {
+        convertedAmount = originalAmount / 2.54990m;
+      }
+  this.labelResult.Text = originalAmount + " лв. = " +
+  Math.Round(convertedAmount, 2) + " " + this.comboBoxCurrency.SelectedItem;
+}
+```
+
+Горният код взима **сумата** за конвертиране от полето **`numericUpDownAmount`** и **избраната валута** за резултата от полето **`comboBoxCurrency`**. След това с **условна конструкция**, според избраната валута, сумата се дели на **валутния курс** (който е фиксиран твърдо в сорс кода). Накрая се генерира текстово **съобщение с резултата** (закръглен до 2 цифри след десетичния знак) и се записва в зелената кутийка **`labelResult`**. Опитайте!
+
+Ако имате проблеми с примера по-горе, **гледайте видеото** в началото на тази глава или питайте във **форума на СофтУни**: https://softuni.bg/forum.
