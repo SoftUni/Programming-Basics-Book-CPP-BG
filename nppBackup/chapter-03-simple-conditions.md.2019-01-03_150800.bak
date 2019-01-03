@@ -411,7 +411,7 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
  
 Вече имаме solution с едно конзолно приложение в него. Остава да напишем кода за решаване на задачата:
 
- ![](/assets/chapter-3-images/01.Еxcellent-result-01.PNG)
+ ![](/assets/chapter-3-images/01.Еxcellent-result-01.jpg)
 
 **Стартираме** програмата с [**Ctrl+F5**], за да я **тестваме** с различни входни стойности:
 
