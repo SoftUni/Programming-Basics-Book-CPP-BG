@@ -357,7 +357,7 @@ int main() {
 
 След **`return`** оператора, в текущия блок, **не** трябва да има други редове код, тъй като тогава Visual Studio ще покаже предупреждение, съобщавайки ни, че е засякъл код, който **не може да бъде достъпен**:
 
-<img src = "/assets/chapter-10-images/12_return_02.PNG"/>
+<img src = "/assets/chapter-10-images/12_return__02.PNG"/>
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" />
 </td><td>В програмирането не може да има два пъти оператор <code><b>return</b></code> един след друг, защото изпълнението на първия няма да позволи да се изпълни вторият.</td></tr>
