@@ -378,8 +378,8 @@ cin >> x2;
 cin >> y2;
 
 // Изчисляване страните на правоъгълника:
-double width = fabs(x2 - x1) - fabs(x - x1);
-double height = fabs(y2 - y1) - fabs(y2 - y1);
+double width = fabs(x2 - x1);
+double height = fabs(y2 - y1);
 
 cout << "Area = " << width * height << endl;
 cout << "Perimeter = " << 2 * (width + height) << endl;
