@@ -380,7 +380,7 @@ Trapezoid area = 17.5
 
 #### Насоки и подсказки
 
-Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add*] -> [**New Project**]:
+Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project**]:
 
 ![](/assets/chapter-2-2-images/00.Empty-Project.00.png)
 
