@@ -313,14 +313,8 @@ Trapezoid area = 17.5
 - Периметър = 2 \* π \* r
 - π ≈ 3.14159265358979323846…
 
-```cplusplus
-cout << "Enter circle radius. r = ";
-double r;
-cin >> r;
-double pi = 3.14159265359;
-cout << "Area = " << pi * r * r << endl;
-cout << "Perimeter = " << 2 * pi * r << endl;
-```
+![](/assets//chapter-2-2-images/07.Circle.00.png)
+
 Нека изпробваме програмата с **радиус `r = 10`**:
 
 ![](/assets//chapter-2-2-images/00.Circle-area.01.jpg)
