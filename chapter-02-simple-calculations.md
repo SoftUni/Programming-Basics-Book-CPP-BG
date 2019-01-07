@@ -76,7 +76,7 @@ cin >> num;
 
 За пример да вземем следната програма, която прочита цяло число от конзолата, умножава го по него самото (вдига го на квадрат) и отпечатва резултата от умножението. Така можем да пресметнем лицето на квадрат по дадена дължина на страната:
 
-![](/assets/chapter-2-2-images/01.Square-Area.00)
+![](/assets/chapter-2-2-images/01.Square-Area.00.png)
 
 Ето как би работила програмата при квадрат с размер на страната 3:
 
@@ -220,8 +220,6 @@ int product = a * b; // 35
 * Когато делим две числа, от които поне едното е дробно, се извършва **дробно деление** и полученият резултат е дробно число, както в математиката. Например 11 / 4.0 = 2.75. При невъзможност за точно разделяне, резултатът се закръгля, например 11.0 / 3 = 3.66666666666667.
 * Целочисленото **деление на 0** предизвиква **грешка** по време на изпълнение (runtime exception).
 * Дробното **деление на 0** не предизвиква грешка, а резултатът е **+/- безкрайност** или специалната стойност **inf**. Например 5 / 0.0 = &#8734;.
-
- *iztrit text za NaN*
  
 Ето няколко примера за използване на оператора за делене:
 
@@ -288,7 +286,7 @@ int expr = (3 + 5) * (4 – 2);
 
 Да напишем програма, която въвежда дължините на двете основи на трапец и неговата височина (по едно дробно число на ред) и пресмята **лицето на трапеца** по стандартната математическа формула:
 
-![](/assets//chapter-2-2-images/05.Trapezoid-area.02.png)
+![](/assets/chapter-2-2-images/05.Trapezoid-area.02.png)
 
 Ако (b1 + b2) * h се дели без остатък на 2.0, десетичната точка и нула ще бъдат пренебрегнати и 
 няма да бъдат изписани на конзолата.
@@ -313,11 +311,11 @@ Trapezoid area = 17.5
 - Периметър = 2 \* π \* r
 - π ≈ 3.14159265358979323846…
 
-![](/assets//chapter-2-2-images/07.Circle.00.png)
+![](/assets/chapter-2-2-images/07.Circle.00.png)
 
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets//chapter-2-2-images/00.Circle-area.01.jpg)
+![](/assets/chapter-2-2-images/00.Circle-area.01.png)
 
 #### Тестване в Judge системата
 
@@ -362,15 +360,15 @@ Trapezoid area = 17.5
 *	Стартираме Visual Studio.
 * Създаваме нов **Empty Project:** [**File**] -> [**New**] -> [**Project**].
 
-![](/assets/chapter-2-2-images//00.Empty-Project.png)
+![](/assets/chapter-2-2-images/00.Empty-Project.png)
 
 Избираме от диалоговия прозорец [**Visual C++**] ->[**Empty Project**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//00.Empty-Project.01.png)
+![](/assets/chapter-2-2-images/00.Empty-Project.01.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](/assets/chapter-2-2-images//00.Empty-Project.02.png)
+![](/assets/chapter-2-2-images/00.Empty-Project.02.png)
 
 ### Задача:	пресмятане на лице на квадрат
 
@@ -385,19 +383,19 @@ Trapezoid area = 17.5
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име “Square-Area”:
 След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp** 
 
-![](/assets/chapter-2-2-images//01.Square-Area.01.png)
+![](/assets/chapter-2-2-images/01.Square-Area.01.png)
 
-![](/assets/chapter-2-2-images//01.Square-Area.02.png)
+![](/assets/chapter-2-2-images/01.Square-Area.02.png)
 
-![](/assets/chapter-2-2-images//01.Square-Area.03.png)
+![](/assets/chapter-2-2-images/01.Square-Area.03.png)
 
 Тъй като сме избрали  **Empty Project**, във файла няма нищо написано. Както знаем, на първия ред е необходимо да добавим библиотеката **`<iostream>`**, а после включваме и именованото простраство (**namespace**) **std**. След това пишем **main** функцията, чрез която работата на нашата програма е възможна.
 
-![](/assets/chapter-2-2-images//01.Square-Area.04.png)
+![](/assets/chapter-2-2-images/01.Square-Area.04.png)
 
 Остава да добавим **кода за решаване на задачата**. За целта отиваме в тялото на **`main`** функцията и въвеждаме следния код:
 
-![](/assets/chapter-2-2-images//01.Square-Area.05.png)
+![](/assets/chapter-2-2-images/01.Square-Area.05.png)
 
 Кодът въвежда цяло число със **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
 
@@ -409,8 +407,8 @@ Trapezoid area = 17.5
 
 Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets//chapter-2-2-images/01.Square-Area.06.png)
-![](/assets//chapter-2-2-images/01.Square-Area.07.png)
+![](/assets/chapter-2-2-images/01.Square-Area.06.png)
+![](/assets/chapter-2-2-images/01.Square-Area.07.png)
 
 ### Задача:	от инчове към сантиметри
 
@@ -420,11 +418,11 @@ Trapezoid area = 17.5
 
 Първо създаваме **нов C++ проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](/assets/old-images/chapter-2-images/01.Square-area-01.png
+![](/assets/old-images/chapter-2-images/01.Square-area-01.png)
 
 Избираме [**Visual C++**] -> [**Empty Project**] и задайте име “Inches-to-Centimeters”:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.01.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.01.png)
 
 Следва да напишем **кода на програмата**:
 
@@ -439,7 +437,7 @@ Trapezoid area = 17.5
 
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.04.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.04.png)
 
 ![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-06.png)
 
@@ -475,8 +473,8 @@ Trapezoid area = 17.5
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая) е възможно да се се получи грешка и тя да бъде изписана на конзолата. Затова е препоръчително **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-![](/assets/chapter-2-2-images//02.Inches-to-centimeters-14.png)
-![](/assets/chapter-2-2-images//02.Inches-to-centimeters-15.png)
+![](/assets/chapter-2-2-images/02.Inches-to-centimeters-14.png)
+![](/assets/chapter-2-2-images/02.Inches-to-centimeters-15.png)
 
 #### Тестване в Judge системата
 
@@ -484,7 +482,7 @@ Trapezoid area = 17.5
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.05.png)
+![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.05.png)
 
 ### Задача: поздрав по име
 
@@ -494,11 +492,11 @@ Trapezoid area = 17.5
 
 Първо създаваме **нов C++ проект** с име “Greeting” в решението “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//03.Greeting.01.png)
+![](/assets/chapter-2-2-images/03.Greeting.01.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](/assets/chapter-2-2-images//03.Greeting.02.png)
+![](/assets/chapter-2-2-images/03.Greeting.02.png)
 
 **Стартираме** програмата с [**Ctrl+F5**] и я тестваме дали работи:
 
@@ -516,11 +514,11 @@ Trapezoid area = 17.5
 
 Добавяме към текущото Visual Studio решение още един C++ проект с име “Concatenate-Data”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](/assets//chapter-2-2-images/04.Concatenate.png)
+![](/assets/chapter-2-2-images/04.Concatenate.png)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
-![](/assets//chapter-2-2-images/04.Concatenate.01.png)
+![](/assets/chapter-2-2-images/04.Concatenate.01.png)
 
 На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
 
@@ -542,7 +540,7 @@ Trapezoid area = 17.5
 
 Отново трябва да добавим към текущото Visual Studio решение още един **C++ проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](/assets//chapter-2-2-images/05.Trapezoid-area.01.png)
+![](/assets/chapter-2-2-images/05.Trapezoid-area.01.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
