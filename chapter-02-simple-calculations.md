@@ -535,7 +535,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 Решението би трябвало да бъде прието като напълно коректно:
 
 ![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.05.png)
-
+![](/assets//chapter-2-2-images/01.Square-Area.06.png)
 ### Задача: поздрав по име
 
 Да се напише програма, която **чете от конзолата име на човек** и отпечатва **`Hello, <name>!`**, където **`<name>`** е въведеното преди това име.
