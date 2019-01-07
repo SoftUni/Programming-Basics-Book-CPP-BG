@@ -385,9 +385,10 @@ Trapezoid area = 17.5
 ![](/assets/chapter-2-2-images/00.Empty-Project.04.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име **“Square-Area”**:
-След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp**  ([**Source Files**] -> [**Add**] -> [**New Item...**])
 
 ![](/assets/chapter-2-2-images/01.Square-Area.01.png)
+
+След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp**  ([**Source Files**] -> [**Add**] -> [**New Item...**])
 
 ![](/assets/chapter-2-2-images/01.Square-Area.02.png)
 
