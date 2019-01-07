@@ -382,7 +382,7 @@ Trapezoid area = 17.5
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add*] -> [**New Project**]:
 
-![](/assets/chapter-2-2-images/00.Empty-Project.04.png)
+![](/assets/chapter-2-2-images/00.Empty-Project.00.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име **“Square-Area”**:
 
