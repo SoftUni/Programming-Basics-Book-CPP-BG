@@ -525,9 +525,8 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая) е възможно да се се получи грешка и тя да бъде изписана на конзолата. Затова е препоръчително **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-14.png)
-
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-15.png)
+![](/assets/chapter-2-2-images//02.Inches-to-centimeters-14.png)
+![](/assets/chapter-2-2-images//02.Inches-to-centimeters-15.png)
 
 #### Тестване в Judge системата
 
