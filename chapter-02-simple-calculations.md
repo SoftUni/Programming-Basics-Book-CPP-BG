@@ -408,7 +408,7 @@ Trapezoid area = 17.5
 
 Кодът въвежда цяло число със **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl + F5**] и я **тестваме** с различни входни стойности:
 
-![](/assets/chapter-2-images/01.Square-Area-07.png)
+![](/assets/chapter-2-images/01.Square-area-07.png)
 
 #### Тестване в Judge системата
 
@@ -416,8 +416,8 @@ Trapezoid area = 17.5
 
 Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets/chapter-2-images/01.Square-Area-08.png)
-![](/assets/chapter-2-images/01.Square-Area-09.png)
+![](/assets/chapter-2-images/01.Square-area-08.png)
+![](/assets/chapter-2-images/01.Square-area-09.png)
 
 ### Задача:	от инчове към сантиметри
 
@@ -427,24 +427,23 @@ Trapezoid area = 17.5
 
 Първо създаваме **нов C++ проект** в решението **“Simple-Calculations”**. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](/assets/chapter-2-2-images/00.Empty-Project.04.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-00.png)
 
 Избираме [**Visual C++**] -> [**Empty Project**] и задайте име “Inches-to-Centimeters”:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.01.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-01.png)
 
 Следва да напишем **кода на програмата**:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.02.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-02.png)
 
 **Стартираме програмата** с [**Ctrl + F5**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-04.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-03.png)
 
-Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
-Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
+Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма? Във Visual Studio **текущият активен проект** в един Solution е маркиран в получерно и може да се сменя. Както виждаме, маркиран е проектът "Square-Area":
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.04.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-04.png)
 
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
