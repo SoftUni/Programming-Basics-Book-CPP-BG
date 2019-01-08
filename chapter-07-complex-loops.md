@@ -15,7 +15,7 @@
 
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank"
-  https://www.youtube.com/watch?v=JWaS7V0QlGk">
+  href="https://www.youtube.com/watch?v=JWaS7V0QlGk">
   https://www.youtube.com/watch?v=JWaS7V0QlGk</a>.
 </div>
 
