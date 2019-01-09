@@ -125,39 +125,39 @@ std::cout << euro << std::endl;
 
 В следващите редове подробно са описани подробно **стъпките за инсталация на Visual Studio** (версия Community 2017). След като свалим инсталационния файл и го стартираме, се появява следният екран:
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-1.png)
+![](/assets/chapter-1-images/00.visual-studio-1.png)
 
 Натискаме бутона [**Continue**], след което ще видим прозореца долу:
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-2.png)
+![](/assets/chapter-1-images/00.visual-studio-2.png)
 
 Зарежда се прозорец с инсталационния панел на Visual Studio.
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-3.png)
+![](/assets/chapter-1-images/00.visual-studio-3.png)
 
 Слагаме отметка на [**Desktop development with C++**]. Общо взето това е всичко.
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-4.png)
+![](/assets/chapter-1-images/00.visual-studio-4.png)
 
 Започва инсталацията на Visual Studio и ще се появи екран като този по-долу:
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-5.png)
+![](/asset/chapter-1-images/00.visual-studio-5.png)
 
 След като Visual Studio се инсталира, ще се появи информативен екран и трябва да натиснем бутона [**Launch**], за да го стартираме.
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-6.png)
+![](/assets/chapter-1-images/00.visual-studio-6.png)
 
 След **старта на VS** излиза екран като този по-долу. От него можем да изберем дали да влезем с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме опцията [**Not now, maybe later.**]. На по-късен етап, ако имате такъв акаунт, можете да се логнете, а ако нямате и срещате затруднения със създаването му, винаги можете да пишете във форума на SoftUni: [https://softuni.bg/forum](https://softuni.bg/forum).
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-7.png)
+![](/assets/chapter-1-images/00.visual-studio-7.png)
 
 Следващата стъпка е да изберем **цветовата тема**, с която да се визуализира Visual Studio. Тук изборът е изцяло според предпочитанията на потребителя, като няма значение коя опция ще бъде избрана. 
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-8.png)
+![](/assets/chapter-1-images/00.visual-studio-8.png)
 
 Натискаме бутона [**Start Visual Studio**] и се зарежда в началния изглед на Visual Studio Community:
 
-![](/assets/old-images/chapter-1-images/00.visual-studio-9.png)
+![](/assets/chapter-1-images/00.visual-studio-9.png)
 
 Това е всичко. Готови сме за работа с Visual Studio.
 
