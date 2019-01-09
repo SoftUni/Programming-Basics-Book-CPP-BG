@@ -1,7 +1,5 @@
 # Глава 2.1. Прости пресмятания с числа
 
-Проба
-
 В настоящата глава ще се запознаем със следните концепции и програмни техники:
 - Какво представлява **системната конзола**?
 - Как да **прочитаме числа** от системната конзола?
@@ -21,7 +19,7 @@
 
 В повечето случаи системната конзола представлява текстов терминал, т.е. приема и визуализира само **текст**, без графични елементи като например бутони, менюта и т.н. Обикновено изглежда като прозорец с черен цвят като този:
 
-/*![](/assets/old-images/chapter-2-images/00.Console-example.png)*/
+![](/assets/chapter-2-images/00.Console-example.png)
 
 В повечето операционни системи **конзолата** е достъпна като самостоятелно приложение на което пишем конзолни команди. В Windows се нарича **Command Prompt**, а в Linux и Mac се нарича **Terminal**. В конзолата се изпълняват конзолни приложения. Те четат текстов вход от командния ред и печатат изхода си като текстов изход на конзолата. В настоящата книга ще се учим на програмиране като създаваме предимно **конзолни приложения**. Не забравяйте да настроите конзолата ( [**Project**] -> [**Properties**] -> [**Linker**] -> [**System**] ---> **Console(/SUBSYSTEM:CONSOLE)** ).
 
@@ -38,13 +36,15 @@ std::cout << name;
 
 using namespace std;
 
-int main(){
+int main()
+{
+}
 ```
 ## Пресмятания в програмирането
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**. Променливите са именувани области от паметта, които пазят данни от определен тип, например число или текст. Всяка една **променлива** в C++ има **име**, **тип** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията ѝ, ѝ присвояваме и стойност:
 
-![](/assets//chapter-2-2-images/00.Declaring-variables.00.png)
+![](/assets/chapter-2-images/00.Declaring-variables-00.png)
 
 След тяхната обработка, данните се записват отново в променливи (т.е. някъде в паметта, заделена от нашата програма).
 
@@ -76,19 +76,11 @@ cin >> num;
 
 За пример да вземем следната програма, която прочита цяло число от конзолата, умножава го по него самото (вдига го на квадрат) и отпечатва резултата от умножението. Така можем да пресметнем лицето на квадрат по дадена дължина на страната:
 
-```cplusplus
-int a;
-cout << "a = ";              
-cin >> a;
-int area;
-area = a * a;
-cout << "Square area = ";
-cout << area;
-```
+![](/assets/chapter-2-images/01.Square-Area-01.png)
 
 Ето как би работила програмата при квадрат с размер на страната 3:
 
-![](/assets/old-images/chapter-2-images/00.Square-area-01.jpg)
+![](/assets/chapter-2-images/01.Square-area-00.png)
 
 Опитайте да въведете грешно число, например "**hello**". Ще получите съобщение за грешка по време на изпълнение (exception). Това е нормално. По-късно ще разберем как можем да прихващаме такива грешки и да караме потребителят да въвежда число наново.
 
@@ -125,18 +117,11 @@ cin >> num;
 
 Да напишем програма, която чете дробно число в инчове и го обръща в сантиметри:
 
-```cplusplus
-double inches;
-cout << "Inches = ";              
-cin >> inches;
-double centimeters = inches * 2.54;
-cout << "Centimeters = ";
-cout << centimeters << endl;
-```
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-02.png)
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](/assets/old-images/chapter-2-images/00.Inches-to-centimeters-01.jpg)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-03.png)
 
 #### Тестване в Judge системата
 
@@ -153,22 +138,25 @@ cout << centimeters << endl;
 
 using namespace std;
 
-int main{
- string str;
- cin >> str;
+int main
+{
+  string str;
+  cin >> str;
+}
 ```
 ### Пример: поздрав по име
 
 Да напишем програма, която въвежда името на потребителя и го поздравява с текста "**Hello, *име***".
 
-```cplusplus
-string name;
-cin >> name;
-cout << "Hello, " << name << "!" << endl;
-```
+![](/assets/chapter-2-images/03.Greeting-01.png)
+      
+В този пример е използван друг начин за вход, тъй като не се знае колко думи ще бъдат въведени за име. Поради тази причина, в С++ съществува функция **getline** (в библиотеката **`<istream>`**), с чиято помощ се извличат всички символи, написани на един ред [включително и интeрвалите]. В десета глава, функциите ще бъдат подробно обяснени, но нека разгледаме какво трябва да запишем в дадената.
+
+На първо място в скобите поставяме обекта **cin**, който ,,взима" входните данни и ги запаметява в променлива. За да укажем точно в коя променлива, на второ място изписваме нейното име (в този случай - **name**).
+
 Както се забелязва, на последния ред стрингът **"Hello, "** е преди променливата **`name`**, а другият стринг **"!"** - след нея. Всички те ще бъдат отпечатани **в тази последователност**, благодарение на **`<<`** (операторът за побитово изместване наляво), който ги **свързва** в единен текст.
 
-![](/assets/old-images/chapter-2-images/00.Greeting-by-name-01.jpg)
+![](/assets/chapter-2-images/03.Greeting-00.png)
 
 #### Тестване в Judge системата
 
@@ -176,25 +164,14 @@ cout << "Hello, " << name << "!" << endl;
 
 ## Печатане на текст и числа
 
-```cplusplus
-string firstName, lastName, town;
-int age;
-cin >> firstName;
-cin >> lastName;
-cin >> age;
-cin >> town;
-
-cout << "You are " << firstName << " " << lastName
-     << ", a " << age 
-     << "-years old person from " << town << "." << endl;
-```
+![](/assets/chapter-2-images/04.Concatenate-02.png)
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](/assets/old-images/chapter-2-images/00.Placeholders-01.jpg)
+![](/assets/chapter-2-images/04.Concatenate-00.png)
 
-Може да забележите, че *firstName*, *lastName* и *town* са написани на един ред. Това е така, защото **когато променливите са от еднакъв тип, те могат се декларират на един ред**.
-И в този пример обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. Това се отнася и за местата, където се налага да сложим интервал (трябва изрично да укажем кои са те - в случая е използван празен стринг **`" "`**, между *firstName* и *lastName*, но съществуват и други варианти). 
+Може да ви направи впечатление, че **firstName**, **lastName** и **town** са написани на един ред. Това е така, защото **когато променливите са от еднакъв тип, те могат се декларират на един ред**.
+И в този пример обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. Това се отнася и за местата, където се налага да сложим интервал (трябва изрично да укажем кои са те - в случая е използван празен стринг **`" "`**, между **firstName** и **lastName**, но съществуват и други варианти). 
 
 ### Тестване в Judge системата
 
@@ -211,7 +188,7 @@ cout << "You are " << firstName << " " << lastName
 ```cplusplus
 int a = 5;
 int b = 7;
-int sum = a + b; // резултатът е 12
+int sum = a + b; // 12
 ```
 
 ### Изваждане на числа (оператор **`-`**)
@@ -227,7 +204,7 @@ cout << result << endl;
 ```
 Ето резултатът от изпълнението на програмата (при числа 10 и 3):
 
-![](/assets/old-images/chapter-2-images/00.Subtracting-01.jpg)
+![](/assets/chapter-2-images/00.Subtracting-01.png)
 
 ### Умножение на числа (оператор **`*`**)
 
@@ -245,8 +222,6 @@ int product = a * b; // 35
 * Когато делим две числа, от които поне едното е дробно, се извършва **дробно деление** и полученият резултат е дробно число, както в математиката. Например 11 / 4.0 = 2.75. При невъзможност за точно разделяне, резултатът се закръгля, например 11.0 / 3 = 3.66666666666667.
 * Целочисленото **деление на 0** предизвиква **грешка** по време на изпълнение (runtime exception).
 * Дробното **деление на 0** не предизвиква грешка, а резултатът е **+/- безкрайност** или специалната стойност **inf**. Например 5 / 0.0 = &#8734;.
-
- *iztrit text za NaN*
  
 Ето няколко примера за използване на оператора за делене:
 
@@ -313,16 +288,14 @@ int expr = (3 + 5) * (4 – 2);
 
 Да напишем програма, която въвежда дължините на двете основи на трапец и неговата височина (по едно дробно число на ред) и пресмята **лицето на трапеца** по стандартната математическа формула:
 
-```cplusplus
-double b1, b2, h;
-cin >> b1;    
-cin >> b2;
-cin >> h;
-double area = (b1 + b2) * h / 2.0;
-cout << "Trapezoid area = " << area << endl;    // Ако (b1 + b2) * h се дели без остатък на 2.0, 
-                                                // десетичната точка и нула ще бъдат пренебрегнати и 
-                                                // няма да бъдат изписани на конзолата
-```
+![](/assets/chapter-2-images/05.Trapezoid-area-02.png)
+
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>
+Ако <b>(b1 + b2) * h</b> се дели без остатък на 2.0, десетичната точка и нула ще бъдат пренебрегнати и 
+няма да бъдат изписани на конзолата.
+</td></tr></table>
+  
 Ако стартираме програмата и въведем за страните съответно `3`, `4` и `5`, ще получим следния резултат:
 ```
 3
@@ -344,17 +317,11 @@ Trapezoid area = 17.5
 - Периметър = 2 \* π \* r
 - π ≈ 3.14159265358979323846…
 
-```cplusplus
-cout << "Enter circle radius. r = ";
-double r;
-cin >> r;
-double pi = 3.14159265359;
-cout << "Area = " << pi * r * r << endl;
-cout << "Perimeter = " << 2 * pi * r << endl;
-```
+![](/assets/chapter-2-images/07.Circle-01.png)
+
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets//chapter-2-2-images/00.Circle-area.01.jpg)
+![](/assets/chapter-2-images/07.Circle-00.png)
 
 #### Тестване в Judge системата
 
@@ -364,32 +331,17 @@ cout << "Perimeter = " << 2 * pi * r << endl;
 
 Правоъгълник е зададен с **координатите на два от своите два срещуположни ъгъла**. Да се пресметнат **площта и периметъра** му:
 
-<img alt="rectangleArea" src="/assets/old-images/chapter-2-images/00.Rectangle-area-01.png" width="250" height="200" />
+<img alt="rectangleArea" src="/assets/chapter-2-images/06.Rectangle-00.png" width="250" height="200" />
 
 В тази задача трябва да съобразим, че ако от по-големия `x` извадим по-малкия `x`, ще получим дължината на правоъгълника. Аналогично, ако от по-големия `y` извадим по-малкия `y`, ще получим височината на правоъгълника. Остава да умножим двете страни. Ето примерна имплементация на описаната логика:
 
-```cplusplus
-#include <cmath>
-
-double x1, x2, y1, y2;
-cin >> x1;
-cin >> y1;
-cin >> x2;
-cin >> y2;
-
-// Изчисляване страните на правоъгълника:
-double width = fabs(x2 - x1) - fabs(x - x1);
-double height = fabs(y2 - y1) - fabs(y2 - y1);
-
-cout << "Area = " << width * height << endl;
-cout << "Perimeter = " << 2 * (width + height) << endl;
-```
+![](/assets/chapter-2-images/06.Rectangle-01.png)
 
 Използваме **`fabs(x2 - x1)`** и **`fabs(y2 - y1)`**, за да намерим абсолютната стойност на получената разлика, тъй като не знаем кое измежду двете числа е по-голямо. Тази функция се съдържа в библиотеката **`<cmath>`**.
 
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![](/assets/old-images/chapter-2-images/00.Rectangle-area-02.jpg)
+![](/assets/chapter-2-images/06.Rectangle-02.png)
 
 #### Тестване в Judge системата
 
@@ -414,15 +366,15 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 *	Стартираме Visual Studio.
 * Създаваме нов **Empty Project:** [**File**] -> [**New**] -> [**Project**].
 
-![](/assets/chapter-2-2-images//00.Empty-Project.png)
+![](/assets/chapter-2-images/00.Empty-Project-01.png)
 
 Избираме от диалоговия прозорец [**Visual C++**] ->[**Empty Project**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//00.Empty-Project.01.png)
+![](/assets/chapter-2-images/00.Empty-Project-02.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](/assets/chapter-2-2-images//00.Empty-Project.02.png)
+![](/assets/chapter-2-images/00.Empty-Project-03.png)
 
 ### Задача:	пресмятане на лице на квадрат
 
@@ -430,37 +382,40 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 #### Насоки и подсказки
 
-Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project…**]:
+Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project**]:
 
-![](/assets/chapter-2-2-images//00.Empty-Project.03.png)
+![](/assets/chapter-2-images/00.Empty-Project-04.png)
 
-Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име “Square-Area”:
-След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp** 
+Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C++ Empty Project** с име **“Square-Area”**:
 
-![](/assets/chapter-2-2-images//01.Square-Area.01.png)
+![](/assets/chapter-2-images/01.Square-Area-02.png)
 
-![](/assets/chapter-2-2-images//01.Square-Area.02.png)
+След това трябва да добавим нов елемент, който трябва да се казва **Main.cpp**  ([**Source Files**] -> [**Add**] -> [**New Item...**])
 
-![](/assets/chapter-2-2-images//01.Square-Area.03.png)
+![](/assets/chapter-2-images/01.Square-Area-03.png)
 
-Тъй като сме избрали  **Empty Project**, във файла няма нищо написано. Както знаем, на първия ред е необходимо да добавим библиотеката **`<iostream>`**, а после включваме и именованото простраство (**namespace**) **std**. След това пишем **main** функцията, чрез която работата на нашата програма е възможна.
+![](/assets/chapter-2-images/01.Square-Area-04.png)
 
-![](/assets/chapter-2-2-images//01.Square-Area.04.png)
+Тъй като сме избрали **Empty Project**, във файла няма нищо написано. Както знаем, на първия ред е необходимо да добавим библиотеката **`<iostream>`**, а после включваме и именованото простраство **std**. След това пишем **`main()`** функцията, чрез която работата на нашата програма е възможна:
 
-Остава да добавим **кода за решаване на задачата**. За целта отиваме в тялото на **`main`** функцията и въвеждаме следния код:
+![](/assets/chapter-2-images/01.Square-Area-05.png)
 
-![](/assets/chapter-2-2-images//01.Square-Area.05.png)
+Остава да добавим **кода за решаване на задачата**. За целта отиваме в тялото на **`main()`** функцията и въвеждаме следния код:
 
-Кодът въвежда цяло число със **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
+![](/assets/chapter-2-images/01.Square-Area-06.png)
 
-![](/assets/old-images/chapter-2-images/00.Square-area-01.png)
+Кодът въвежда цяло число със **`cin >> a`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl + F5**] и я **тестваме** с различни входни стойности:
+
+![](/assets/chapter-2-images/01.Square-area-07.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/529#0](https://judge.softuni.bg/Contests/Practice/Index/529#0). Трябва да получите 100 точки (напълно коректно решение):
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#0](https://judge.softuni.bg/Contests/Practice/Index/1358#0). 
 
-![](/assets//chapter-2-2-images/01.Square-Area.06.png)
-![](/assets//chapter-2-2-images/01.Square-Area.07.png)
+Трябва да получите 100 точки (напълно коректно решение):
+
+![](/assets/chapter-2-images/01.Square-area-08.png)
+![](/assets/chapter-2-images/01.Square-area-09.png)
 
 ### Задача:	от инчове към сантиметри
 
@@ -468,56 +423,55 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 #### Насоки и подсказки
 
-Първо създаваме **нов C++ проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
+Първо създаваме **нов C++ проект** в решението **“Simple-Calculations”**. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](/assets/old-images/chapter-2-images/01.Square-area-01.png
+![](/assets/chapter-2-images/02.Inches-to-centimeters-00.png)
 
 Избираме [**Visual C++**] -> [**Empty Project**] и задайте име “Inches-to-Centimeters”:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.01.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-01.png)
 
 Следва да напишем **кода на програмата**:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.02.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-02.png)
 
-**Стартираме програмата** с [**Ctrl+F5**]:
+**Стартираме програмата** с [**Ctrl + F5**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-04.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-03.png)
 
-Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
-Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
+Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма? Във Visual Studio **текущият активен проект** в един Solution е маркиран в получерно и може да се сменя. Както виждаме, маркиран е проектът "Square-Area":
+
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-04.png)
 
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.04.png)
-
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-06.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-05.png)
 
 Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-07.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-06.png)
 
 Сега отново **стартираме програмата**, както обикновено с [**Ctrl+F5**]. Този път ще се стартира **текущата отворена програма**, която преобразува инчове в сантиметри. Изглежда работи коректно:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-08.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-07.png)
 
 Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Main.cpp``** от предходния проект **“Square-Area”** в панела [**Solution Explorer**] на Visual Studio:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.03.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-08.png)
 
 Натискаме пак [**Ctrl+F5**]. Този път трябва да се стартира другият проект:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-11.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-09.png)
 
 Превключваме обратно към проекта **“Inches-to-Centimeters”** и го стартираме с [**Ctrl+F5**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-09.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-10.png)
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-10.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-11.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -525,9 +479,8 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая) е възможно да се се получи грешка и тя да бъде изписана на конзолата. Затова е препоръчително **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-14.png)
-
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-15.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-12.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-13.png)
 
 #### Тестване в Judge системата
 
@@ -535,7 +488,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](/assets//chapter-2-2-images/02.Inches-to-Centimeters.05.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-14.png)
 
 ### Задача: поздрав по име
 
@@ -545,15 +498,15 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Първо създаваме **нов C++ проект** с име “Greeting” в решението “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images//03.Greeting.01.png)
+![](/assets/chapter-2-images/03.Greeting-02.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](/assets/chapter-2-2-images//03.Greeting.02.png)
+![](/assets/chapter-2-images/03.Greeting-01.png)
 
 **Стартираме** програмата с [**Ctrl+F5**] и я тестваме дали работи:
 
-![](/assets/old-images/chapter-2-images/03.Greeting-by-name-03.png)
+![](/assets/chapter-2-images/03.Greeting-03.png)
 
 #### Тестване в Judge системата
 
@@ -567,15 +520,13 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 Добавяме към текущото Visual Studio решение още един C++ проект с име “Concatenate-Data”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](/assets//chapter-2-2-images/04.Concatenate.png)
+![](/assets/chapter-2-images/04.Concatenate-03.png)
 
-**Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
+**Кодът**, който отпечатва описаното в условието на задачата съобщение, е целенасочено замъглен и трябва да се допише от читателя:
 
-![](/assets//chapter-2-2-images/04.Concatenate.01.png)
+![](/assets/chapter-2-images/04.Concatenate-04.png)
 
-На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
-
-Следва да се тества решението локално с [**Ctrl+F5**] и въвеждане на примерни входни данни.
+Следва да тестваме решението локално с [**Ctrl + F5**] и примерни входни данни.
 
 #### Тестване в Judge системата
 
@@ -587,13 +538,13 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице **(8 + 13) * 7 / 2 = 73.5**.
 
-![](/assets/old-images/chapter-2-images/05.Trapezoid-area-01.png)
+![](/assets/chapter-2-images/05.Trapezoid-area-01.png)
 
 #### Насоки и подсказки
 
-Отново трябва да добавим към текущото Visual Studio решение още един **C++ проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
+Отново трябва да добавим към текущото Visual Studio решение още един **C++ проект** с име "Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](/assets//chapter-2-2-images/05.Trapezoid-area.01.png)
+![](/assets/chapter-2-images/05.Trapezoid-area-03.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
@@ -628,15 +579,15 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 
 **Правоъгълник** е зададен с **координатите** на два от своите срещуположни ъгъла (x1, y1) – (x2, y2). Да се пресметнат **площта и периметъра** му. **Входът** се чете от конзолата. Числата **x1, y1, x2 и y2** са дадени по едно на ред. **Изходът** се извежда на конзолата и трябва да съдържа два реда с по една число на всеки от тях – лицето и периметъра.
 
-![](/assets/old-images/chapter-2-images/07.Rectangle-area-01.png)
+<img alt="rectangleArea" src="/assets/chapter-2-images/06.Rectangle-00.png" width="250" height="200" />
 
 #### Примерен вход и изход
 
-|               Вход                        |       Изход         |
-|-----------------------------------------|-------------------|
-|60<br>20<br>10<br>50                     |1500<br>160         |
-|30<br>40<br>70<br>-10                   |2000<br>180         |
-|600.25<br>500.75<br>100.50<br>-200.5    |350449.6875<br>2402 |
+|               Вход                    |       Изход        |
+|---------------------------------------|--------------------|
+|60<br>20<br>10<br>50                   |1500<br>160         |
+|30<br>40<br>70<br>-10                  |2000<br>180         |
+|600.25<br>500.75<br>100.50<br>-200.5   |350449.6875<br>2402 |
 
 #### Тестване в Judge системата
 
@@ -649,7 +600,7 @@ cout << "Perimeter = " << 2 * (width + height) << endl;
 #### Примерен вход и изход
 
 |       Вход           |         Изход         |
-|--------------------|---------------------|
+|----------------------|-----------------------|
 | 20 <br>30            | Triangle area = 300   |
 | 15 <br>35            | Triangle area = 262.5 |
 | 7.75 <br>8.45        | Triangle area = 32.74 |
