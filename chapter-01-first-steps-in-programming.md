@@ -121,7 +121,7 @@ std::cout << euro << std::endl;
 
 Започваме с инсталацията на интегрираната среда **Microsoft Visual Studio Community** (версия 2017, актуална към юни 2017 г.).
 
-**Community** версията на Visual Studio (VS) се разпространява безплатно от Microsoft и може да бъде изтеглена от: [https://www.visualstudio.com/vs/community](https://www.visualstudio.com/vs/community). Инсталацията е типичната за Windows с [**Next**], [**Next**] и [**Finish**], но е важно да включим компонентите за "**desktop development**" и "**ASP.NET**". Не е необходимо да променяме останалите настройки за инсталация.
+**Community** версията на Visual Studio (VS) се разпространява безплатно от Microsoft и може да бъде изтеглена от: [https://www.visualstudio.com/vs/community](https://www.visualstudio.com/vs/community). Инсталацията е типичната за Windows с [**Next**], [**Next**] и [**Finish**], но е важно да включим компонентът за "**Desktop development with C++**". Не е необходимо да променяме останалите настройки за инсталация.
 
 В следващите редове подробно са описани подробно **стъпките за инсталация на Visual Studio** (версия Community 2017). След като свалим инсталационния файл и го стартираме, се появява следният екран:
 
@@ -135,7 +135,7 @@ std::cout << euro << std::endl;
 
 ![](/assets/old-images/chapter-1-images/00.visual-studio-3.png)
 
-Слагаме отметка на [**Universal Windows Platform development**], [**.NET desktop development**] и [**ASP.NET and web development**], след което натискаме бутона [**Install**]. Общо взето това е всичко.
+Слагаме отметка на [**Desktop development with C++**]. Общо взето това е всичко.
 
 ![](/assets/old-images/chapter-1-images/00.visual-studio-4.png)
 
