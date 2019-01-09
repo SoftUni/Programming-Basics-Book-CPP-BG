@@ -123,7 +123,7 @@ cin >> num;
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](/assets/chapter-2-images/00.Inches-to-centimeters-00.png)
+![](/assets/chapter-2-images/00.Inches-to-Centimeters-00.png)
 
 #### Тестване в Judge системата
 
@@ -158,7 +158,7 @@ int main
 
 Както се забелязва, на последния ред стрингът **"Hello, "** е преди променливата **`name`**, а другият стринг **"!"** - след нея. Всички те ще бъдат отпечатани **в тази последователност**, благодарение на **`<<`** (операторът за побитово изместване наляво), който ги **свързва** в единен текст.
 
-![](/assets/chapter-2-images/00.Greeting-00.png)
+![](/assets/chapter-2-images/03.Greeting-00.png)
 
 #### Тестване в Judge системата
 
@@ -333,7 +333,7 @@ Trapezoid area = 17.5
 
 Правоъгълник е зададен с **координатите на два от своите два срещуположни ъгъла**. Да се пресметнат **площта и периметъра** му:
 
-<img alt="rectangleArea" src="/assets/chapter-2-images/00.Rectangle-00.png" width="250" height="200" />
+<img alt="rectangleArea" src="/assets/chapter-2-images/06.Rectangle-00.png" width="250" height="200" />
 
 В тази задача трябва да съобразим, че ако от по-големия `x` извадим по-малкия `x`, ще получим дължината на правоъгълника. Аналогично, ако от по-големия `y` извадим по-малкия `y`, ще получим височината на правоъгълника. Остава да умножим двете страни. Ето примерна имплементация на описаната логика:
 
@@ -343,7 +343,7 @@ Trapezoid area = 17.5
 
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![](/assets/old-images/chapter-2-images/06.Rectangle-02.png)
+![](/assets/chapter-2-images/06.Rectangle-02.png)
 
 #### Тестване в Judge системата
 
@@ -427,7 +427,7 @@ Trapezoid area = 17.5
 
 Първо създаваме **нов C++ проект** в решението **“Simple-Calculations”**. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](/assets/chapter-2-images/02.Inches-to-Centimeters-00.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-00.png)
 
 Избираме [**Visual C++**] -> [**Empty Project**] и задайте име “Inches-to-Centimeters”:
 
@@ -447,33 +447,33 @@ Trapezoid area = 17.5
 
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-06.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-05.png)
 
 Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-07.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-06.png)
 
 Сега отново **стартираме програмата**, както обикновено с [**Ctrl+F5**]. Този път ще се стартира **текущата отворена програма**, която преобразува инчове в сантиметри. Изглежда работи коректно:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-08.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-07.png)
 
 Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Main.cpp``** от предходния проект **“Square-Area”** в панела [**Solution Explorer**] на Visual Studio:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.03.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-08.png)
 
 Натискаме пак [**Ctrl+F5**]. Този път трябва да се стартира другият проект:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-11.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-09.png)
 
 Превключваме обратно към проекта **“Inches-to-Centimeters”** и го стартираме с [**Ctrl+F5**]:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-09.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-10.png)
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-10.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-11.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -481,8 +481,8 @@ Trapezoid area = 17.5
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая) е възможно да се се получи грешка и тя да бъде изписана на конзолата. Затова е препоръчително **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-![](/assets/chapter-2-2-images/02.Inches-to-centimeters-14.png)
-![](/assets/chapter-2-2-images/02.Inches-to-centimeters-15.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-12.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-13.png)
 
 #### Тестване в Judge системата
 
@@ -490,7 +490,7 @@ Trapezoid area = 17.5
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](/assets/chapter-2-2-images/02.Inches-to-Centimeters.05.png)
+![](/assets/chapter-2-images/02.Inches-to-Centimeters-14.png)
 
 ### Задача: поздрав по име
 
@@ -500,15 +500,15 @@ Trapezoid area = 17.5
 
 Първо създаваме **нов C++ проект** с име “Greeting” в решението “Simple-Calculations”:
 
-![](/assets/chapter-2-2-images/03.Greeting.01.png)
+![](/assets/chapter-2-images/03.Greeting-02.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](/assets/chapter-2-2-images/03.Greeting.02.png)
+![](/assets/chapter-2-images/03.Greeting-01.png)
 
 **Стартираме** програмата с [**Ctrl+F5**] и я тестваме дали работи:
 
-![](/assets/old-images/chapter-2-images/03.Greeting-by-name-03.png)
+![](/assets/chapter-2-images/03.Greeting-03.png)
 
 #### Тестване в Judge системата
 
@@ -522,15 +522,13 @@ Trapezoid area = 17.5
 
 Добавяме към текущото Visual Studio решение още един C++ проект с име “Concatenate-Data”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](/assets/chapter-2-2-images/04.Concatenate.png)
+![](/assets/chapter-2-images/04.Concatenate-03.png)
 
-**Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
+**Кодът**, който отпечатва описаното в условието на задачата съобщение, е целенасочено замъглен и трябва да се допише от читателя:
 
-![](/assets/chapter-2-2-images/04.Concatenate.01.png)
+![](/assets/chapter-2-images/04.Concatenate-04.png)
 
-На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
-
-Следва да се тества решението локално с [**Ctrl+F5**] и въвеждане на примерни входни данни.
+Следва да тестваме решението локално с [**Ctrl + F5**] и примерни входни данни.
 
 #### Тестване в Judge системата
 
@@ -542,13 +540,13 @@ Trapezoid area = 17.5
 
 На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице **(8 + 13) * 7 / 2 = 73.5**.
 
-![](/assets/old-images/chapter-2-images/05.Trapezoid-area-01.png)
+![](/assets/chapter-2-images/05.Trapezoid-area-01.png)
 
 #### Насоки и подсказки
 
-Отново трябва да добавим към текущото Visual Studio решение още един **C++ проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
+Отново трябва да добавим към текущото Visual Studio решение още един **C++ проект** с име "Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](/assets/chapter-2-2-images/05.Trapezoid-area.01.png)
+![](/assets/chapter-2-images/05.Trapezoid-area-03.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
@@ -583,7 +581,7 @@ Trapezoid area = 17.5
 
 **Правоъгълник** е зададен с **координатите** на два от своите срещуположни ъгъла (x1, y1) – (x2, y2). Да се пресметнат **площта и периметъра** му. **Входът** се чете от конзолата. Числата **x1, y1, x2 и y2** са дадени по едно на ред. **Изходът** се извежда на конзолата и трябва да съдържа два реда с по една число на всеки от тях – лицето и периметъра.
 
-![](/assets/old-images/chapter-2-images/07.Rectangle-area-01.png)
+![](/assets/chapter-2-images/06.Rectangle-00.png)
 
 #### Примерен вход и изход
 
