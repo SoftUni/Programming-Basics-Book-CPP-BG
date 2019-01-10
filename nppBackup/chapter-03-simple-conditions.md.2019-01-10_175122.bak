@@ -663,8 +663,8 @@ std::transform(data.begin(), data.end(), data.begin(), ::tolower);
 за да можете да използвате **`std::setprecision()`**. Ето примерно закръгляне:
 
 ```cplusplus
-double f = 3.14159;
-cout << fixed << setprecision(2) << f << endl;
+double f =3.14159;
+cout << setprecision(2) << f << endl;
 ```
 
 при което като изход ще бъде изведено **3.14**.
