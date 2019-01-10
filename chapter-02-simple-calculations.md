@@ -36,8 +36,7 @@ std::cout << name;
 
 using namespace std;
 
-int main()
-{
+int main() {
 }
 ```
 ## Пресмятания в програмирането
@@ -138,8 +137,7 @@ cin >> num;
 
 using namespace std;
 
-int main
-{
+int main {
   string str;
   cin >> str;
 }
