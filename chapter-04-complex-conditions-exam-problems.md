@@ -207,21 +207,19 @@ switch (селектор)
 
 #### Обработка на входните данни
 
-Прочитайки внимателно условието разбираме, че очакваме **два** реда с входни данни. Първият параметър е **реално число**, за което е добре да изберем подходящ тип на променливата. За по-голяма точност в изчисленията ще се спрем на **`decimal`** като тип за бюджета, а за сезона - **`string`**. 
+Прочитайки внимателно условието разбираме, че очакваме **два** реда с входни данни. Първият параметър е **реално число**, за което е добре да изберем подходящ тип на променливата. Ще се спрем на **`double`** като тип за бюджета, а за сезона - **`string`**. 
 
-![](/assets/old-images/chapter-4-2-images/02.Trip-01.png)
+![](/assets/chapter-4-2-images/02.Trip-01.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td>Винаги преценявайте какъв **тип стойност** се подава при входните данни, както и към какъв тип трябва да бъдат конвертирани тези данни, за да работят правилно създадените от вас програмни конструкции!</td>
+<td>Винаги преценявайте какъв **тип стойност** се подава при входните данни, за да работят правилно създадените от вас програмни конструкции!</td>
 </tr></table>
-
-**Пример**: Когато в задачата е необходимо да направите парични изчисления, използвайте **`decimal`** за по-голяма точност.
 
 #### Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи.
 
-![](/assets/old-images/chapter-4-2-images/02.Trip-02.png)
+![](/assets/chapter-4-2-images/02.Trip-02.png)
 
 Подобно на примера в предната задача, можем да инициализираме променливите с някои от изходните резултати - с цел спестяване на допълнително инициализиране.
 
@@ -235,31 +233,27 @@ switch (селектор)
 
 Пример за един от възможните подходи за решение е:
 
-![](/assets/old-images/chapter-4-2-images/02.Trip-03.png)
-
-![](/assets/old-images/chapter-4-2-images/02.Trip-04.png)
-
-![](/assets/old-images/chapter-4-2-images/02.Trip-05.png)
+![](/assets/chapter-4-2-images/02.Trip-03.png)
 
 Винаги можем да инициализираме дадена стойност на параметъра и след това да направим само една проверка. **Това ни спестява една логическа стъпка**.
 
 Например следният блок:
 
-![](/assets/old-images/chapter-4-2-images/02.Trip-03.png)
+![](/assets/chapter-4-2-images/02.Trip-03.png)
 
 може да бъде съкратен до този си вид:
 
-![](/assets/old-images/chapter-4-2-images/02.Trip-06.png)
+![](/assets/chapter-4-2-images/02.Trip-04.png)
 
 #### Отпечатване на резултата
 
 Остава ни да покажем изчисления резултат на конзолата:
 
-![](/assets/old-images/chapter-4-2-images/02.Trip-07.png)
+![](/assets/chapter-4-2-images/02.Trip-05.png)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#1](https://judge.softuni.bg/Contests/Practice/Index/509#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1363#1](https://judge.softuni.bg/Contests/Practice/Index/1363#1).
 
 
 ## Задача: операции между числа
@@ -352,7 +346,7 @@ switch (селектор)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#2](https://judge.softuni.bg/Contests/Practice/Index/509#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1363#2](https://judge.softuni.bg/Contests/Practice/Index/1363#2).
 
 
 ## Задача: билети за мач
@@ -445,7 +439,7 @@ switch (селектор)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#3](https://judge.softuni.bg/Contests/Practice/Index/509#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1363#3](https://judge.softuni.bg/Contests/Practice/Index/1363#3).
 
 
 ## Задача: хотелска стая
@@ -538,4 +532,4 @@ switch (селектор)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#4](https://judge.softuni.bg/Contests/Practice/Index/509#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1363#4](https://judge.softuni.bg/Contests/Practice/Index/1363#4).
