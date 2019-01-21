@@ -77,7 +77,7 @@
 
 Да се напише програма, която отпечатва числата **от 1 до 2^n** (две на степен n). Например, **ако n = 10**, то резултатът ще е **1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024**.
 
-![](/assets/old-images/chapter-7-images/assets/chapter-7-1-images/03.Numbers-1-tо-2^n-01.PNG)
+![](/assets/chapter-7-1-images/03.Numbers-1-tо-2%5En-01.PNG)
 
 #### Тестване в Judge системата
 
@@ -94,11 +94,11 @@
   * За **стъпка** на цикъла задаваме стойност **2**.
   * В **тялото на цикъла**: oтпечатваме стойността на текущото число и **увеличаваме текущото число `num` 4 пъти** (според условието на задачата).
 
-![](/assets/old-images/chapter-7-images/04.Even^2-01.png)
+![](/assets/chapter-7-1-images/04.Even%5E2-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#3](https://judge.softuni.bg/Contests/Practice/Index/514#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#3](https://judge.softuni.bg/Contests/Practice/Index/1368#3).
 
 
 ## While цикъл
@@ -110,7 +110,7 @@
 
 В програмирането **`while` цикълът** се използва, когато искаме да **повтаряме** извършването на определена логика, докато **е в сила дадено условие**. Под "**условие**", разбираме всеки **израз**, който връща **`true`** или **`false`**. Когато **условието** стане **грешно**, **`while`** цикълът **прекъсва** изпълнението си и програмата **продължава** с изпълнението на останалия код след цикъла. Конструкцията за **`while` цикъл** изглежда по този начин:
 
-![](/assets/old-images/chapter-7-images/00.While-loop-01.png)
+![](/assets/chapter-7-1-images/00.While-loop-01.png)
 
 Следва поредица от примерни задачи, решението на които ще ни помогне да разберем по-добре употребата на **`while`** цикъла.
 
@@ -127,11 +127,11 @@
 
 Ето и примерна реализация на описаната идея:
 
-![](/assets/old-images/chapter-7-images/05.Numbers-2k+1-01.png)
+![](/assets/chapter-7-1-images/05.Numbers-2k%2B1-01.PNG)
  
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#4](https://judge.softuni.bg/Contests/Practice/Index/514#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#4](https://judge.softuni.bg/Contests/Practice/Index/1368#4).
 
 
 ### Пример: число в диапазона [1 … 100]
@@ -147,11 +147,11 @@
 
 Ето и примерна реализация на алгоритъма чрез **`while` цикъл**:
 
-![](/assets/old-images/chapter-7-images/06.Numbers-in-range-1..100-01.png)
+![](/assets/chapter-7-1-images/06.Numbers-in-range-1..100-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#5](https://judge.softuni.bg/Contests/Practice/Index/514#5).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#5](https://judge.softuni.bg/Contests/Practice/Index/1368#5).
 
 
 ## Най-голям общ делител (НОД)
@@ -203,11 +203,11 @@ print а;
    * На променливата **`a`** присвояваме **предишната** стойност на променливата **`b`**.
 * След като цикълът приключи и сме установили НОД, го отпечатваме на екрана.
 
-![](/assets/old-images/chapter-7-images/07.GCD-01.png)
+![](/assets/chapter-7-1-images/07.GCD-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#6](https://judge.softuni.bg/Contests/Practice/Index/514#6).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#6](https://judge.softuni.bg/Contests/Practice/Index/1368#6).
 
 
 ## Do-while цикъл
@@ -233,11 +233,11 @@ print а;
    * Намаляваме стойността на **`n`** с **-1**.
 * Извън тялото на цикъла отпечатваме крайната стойност на факториела.
 
-![](/assets/old-images/chapter-7-images/08.Factorial-01.png)
+![](/assets/chapter-7-1-images/08.Factorial-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#7](https://judge.softuni.bg/Contests/Practice/Index/514#7).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#7](https://judge.softuni.bg/Contests/Practice/Index/1368#7).
 
 
 ### Пример: сумиране на цифрите на число
@@ -254,7 +254,7 @@ print а;
    * Присвояваме нова стойност на **`n`**, която е резултат от премахването на последната цифра от **`n`**.
 * Извън тялото на цикъла отпечатваме крайната стойност на сумата.
 
-![](/assets/old-images/chapter-7-images/09.Sum-digits-01.png)
+![](/assets/chapter-7-1-images/09.Sum-digits-01.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px;" /></td>
 <td><code><strong>n % 10</strong></code>: <b>връща</b> последната цифра на числото <code><strong>n</strong></code>.<br>
@@ -263,7 +263,7 @@ print а;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#8](https://judge.softuni.bg/Contests/Practice/Index/514#8).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#8](https://judge.softuni.bg/Contests/Practice/Index/1368#8).
 
 
 ## Безкрайни цикли и операторът break
@@ -276,11 +276,11 @@ print а;
 
 Ето как изглежда **безкраен `while`** цикъл:
 
-![](/assets/old-images/chapter-7-images/00.Infinite-while-loop-01.png)
+![](/assets/chapter-7-1-images/00.Infinite-while-loop-01.PNG)
 
 А така изглежда **безкраен `for`** цикъл:
 
-![](/assets/old-images/chapter-7-images/00.Infinite-for-loop-01.png)
+![](/assets/chapter-7-1-images/00.Infinite-for-loop-01.PNG)
 
 
 ### Оператор break
@@ -330,13 +330,13 @@ print а;
 
 Ето и примерна имплементация на описания алгоритъм:
 
-![](/assets/old-images/chapter-7-images/10.Check-if-prime-01.png)
+![](/assets/chapter-7-1-images/10.Check-if-prime-01.PNG)
 
 Оставаме да добавите **проверка дали входното число е по-голямо от 1**, защото по дефиниция числа като 0, 1, -1 и -2 не са прости.
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#9](https://judge.softuni.bg/Contests/Practice/Index/514#9).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#9](https://judge.softuni.bg/Contests/Practice/Index/1368#9).
 
 
 ### Пример: оператор break в безкраен цикъл
@@ -355,13 +355,13 @@ print а;
 
 Ето и примерна имплементация на идеята:
 
-![](/assets/old-images/chapter-7-images/00.Break-in-infinite-loop-01.png)
+![](/assets/chapter-7-1-images/00.Break-in-infinite-loop-01.PNG)
 
 Забележка: макар кодът по-горе да е коректен, той няма да работи, ако вместо числа потребителят въведе текст, например “**Invalid number**”. Тогава парсването на текста към число ще се счупи и програмата ще покаже **съобщение за грешка (изключение)**. Как да се справим с този проблем и как да прихващаме и обработваме изключения чрез **`try-catch` конструкцията** ще научим след малко.
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#10](https://judge.softuni.bg/Contests/Practice/Index/514#10).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#10](https://judge.softuni.bg/Contests/Practice/Index/1368#10).
 
 
 ## Вложени цикли и операторът break
@@ -374,7 +374,7 @@ print а;
 
 Ето едно **грешно решение**, което изглежда правилно на пръв поглед:
 
-![](/assets/old-images/chapter-7-images/00.Nested-and-break-desired-result-02.png)
+![](/assets/chapter-7-1-images/00.Nested-and-break-undesired-result-02.PNG)
 
 Ако оставим програмата ни по този начин, резултатът ни ще е следният:
 
@@ -388,13 +388,13 @@ print а;
 
 Какво е **правилното решение**? Един начин за решаването на този проблем е чрез деклариране на **`bool` променлива**, която следи за това, дали трябва да продължава въртенето на цикъла. При нужда от изход (излизане от всички вложени цикли), се прави **`true`** променливата и се излиза от вътрешния цикъл с **`break`**, а при последваща проверка се напуска и външния цикъл. Ето и примерна имплементация на тази идея:
 
-![](/assets/old-images/chapter-7-images/00.Nested-and-break-undesired-result-02.png)
+![](/assets/chapter-7-1-images/00.Nested-and-break-desired-result-02.PNG)
 
 По този начин, когато **`i + j = 2`**, програмата ще направи променливата **`hasToEnd = true`** и ще излезе от вътрешния цикъл. При следващото завъртане на външния цикъл, чрез **`if`** проверката, програмата няма да може да стигне до вътрешния цикъл и ще прекъсне изпълнението си.
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#11](https://judge.softuni.bg/Contests/Practice/Index/514#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#11](https://judge.softuni.bg/Contests/Practice/Index/1368#11).
 
 ## Задачи с цикли
 
@@ -439,11 +439,11 @@ Fn = Fn-1 + Fn-2
 
 Примерна имплементация:
 
-![](/assets/old-images/chapter-7-images/12.Fibonacci-01.png)
+![](/assets/chapter-7-1-images/12.Fibonacci-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#13](https://judge.softuni.bg/Contests/Practice/Index/514#13).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#12](https://judge.softuni.bg/Contests/Practice/Index/1368#12).
 
 
 ### Задача: пирамида от числа
@@ -473,11 +473,11 @@ Fn = Fn-1 + Fn-2
 
 Ето и примерна имплементация:
 
-![](/assets/old-images/chapter-7-images/13.Pyramid-01.png)
+![](/assets/chapter-7-1-images/13.Pyramid-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#14](https://judge.softuni.bg/Contests/Practice/Index/514#14).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#13](https://judge.softuni.bg/Contests/Practice/Index/1368#13).
 
 
 ### Задача: таблица с числа
@@ -503,11 +503,11 @@ Fn = Fn-1 + Fn-2
     * Отпечатваме числото от текущата клетка на таблицата.
 * Отпечатваме **празен ред** във външния цикъл, за да преминем на следващия ред.
 
-![](/assets/old-images/chapter-7-images/14.Table-with-numbers-01.png)
+![](/assets/chapter-7-1-images/14.Table-with-numbers-01.PNG)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#15](https://judge.softuni.bg/Contests/Practice/Index/514#15).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1368#14](https://judge.softuni.bg/Contests/Practice/Index/1368#14).
 
 
 ## Какво научихме от тази глава?
