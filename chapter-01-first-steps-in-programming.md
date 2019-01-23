@@ -69,6 +69,7 @@
 ```cpp
 #include <iostream>
 using namespace std;
+
 int main() {
     cout << "Hello";
     
@@ -100,7 +101,7 @@ for (char c = 'A'; c <= 'Z'; c++) {
 
 ```cpp
 double leva;
-std::cin >> leva;
+cin >> leva;
 double euro = leva / 1.95583;
 cout << euro << endl;
 ```
