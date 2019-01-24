@@ -27,7 +27,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#0](https://judge.softuni.bg/Contests/Practice/Index/512#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#0](https://judge.softuni.bg/Contests/Practice/Index/1366#0).
 
 
 ### Пример: правоъгълник от N x N звездички
@@ -44,7 +44,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#1](https://judge.softuni.bg/Contests/Practice/Index/512#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#1](https://judge.softuni.bg/Contests/Practice/Index/1366#1).
 
 
 ## Вложени цикли
@@ -78,7 +78,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#2](https://judge.softuni.bg/Contests/Practice/Index/512#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#2](https://judge.softuni.bg/Contests/Practice/Index/1366#2).
 
 
 ### Пример: триъгълник от долари
@@ -101,7 +101,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#3](https://judge.softuni.bg/Contests/Practice/Index/512#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#3](https://judge.softuni.bg/Contests/Practice/Index/1366#3).
 
 
 ### Пример: квадратна рамка
@@ -130,7 +130,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#4](https://judge.softuni.bg/Contests/Practice/Index/512#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#4](https://judge.softuni.bg/Contests/Practice/Index/1366#4).
 
 
 ### Пример: ромбче от звездички
@@ -160,7 +160,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#5](https://judge.softuni.bg/Contests/Practice/Index/512#5).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#5](https://judge.softuni.bg/Contests/Practice/Index/1366#5).
 
 
 ### Пример: коледна елха
@@ -183,7 +183,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#6](https://judge.softuni.bg/Contests/Practice/Index/512#6).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#6](https://judge.softuni.bg/Contests/Practice/Index/1366#6).
 
 
 ## Чертане на по-сложни фигури
@@ -215,7 +215,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#7](https://judge.softuni.bg/Contests/Practice/Index/512#7).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#7](https://judge.softuni.bg/Contests/Practice/Index/1366#7).
 
 
 ### Пример: къщичка
@@ -237,7 +237,7 @@
 
 * Къщичката е разделена на 2 части: **покрив и основа**. 
 
-![](/assets/old-images/chapter-6-images/09.House-01.png)
+![](/assets/chapter-6-images/09.House-01.png)
 
 * Когато **`n`** е четно число, върхът на къщичката е "тъп".
 * Когато **`n`** е нечетно число, **покривът** е с един ред по-голям от **основата**.
@@ -253,9 +253,9 @@
 * Съставена е от **звезди** и **тирета**.
 * Редовете представляват 2 **тирета** - по едно в началото и в края на реда, както и **звезди** между тиретата с дължина на низа **`n - 2`**.  
 
-Прочитаме **`n`** от конзолата и записваме стойността в променлива от тип **`int`**.  
+Създаваме променлива **`n`** от тип **`int`** и я прочитаме от конзолата.  
 
-![](/assets/old-images/chapter-6-images/09.House-02.png)
+![](/assets/chapter-6-images/09.House-02.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Много е важно да проверяваме дали са валидни входните данни!</b> В тези задачи не е проблем директно да обръщаме прочетеното от конзолата в тип <b><code>int</code></b>, защото изрично е казано че ще получаваме валидни целочислени числа. Ако обаче правите по-сериозни приложения е добра практика да проверявате данните. Какво ще стане, ако вместо буквата "А" потребителя въведе число?</td>
@@ -265,52 +265,57 @@
 * Ако **`n`** е **четно** число, ще са 2 броя.
 * Ако е **нечетно**, ще е 1 брой.
 
-![](/assets/old-images/chapter-6-images/09.House-03.png)
+![](/assets/chapter-6-images/09.House-03.png)
 
 Изчисляваме дължината на **покрива**. Тя е равна на половината от **`n`**. Резултата записваме в променливата **`roofLength`**.
 
-![](/assets/old-images/chapter-6-images/09.House-04.png)
+![](/assets/chapter-6-images/09.House-04.png)
 
 Важно е да се отбележи че, когато **`n`** е нечетно число, дължината на покрива е по-голяма с един ред от тази на **основата**. В езика **C++**, когато два целочислени типа се делят и има остатък, то резултата ще е числото без остатъка.
 
 Пример:
 
-```csharp
+```cpp
 int result = 3 / 2; // резултат 1
 ```
 
-Ако искаме да закръглим нагоре, трябва да използваме метода **`Math.Ceiling(…)`**:
-**`int result = (int)Math.Ceiling(3 / 2f);`**
-В този пример делението не е от 2 целочислени числа. "`f`" след число показва, че даденото число е от тип **`float`** (число с плаваща запетая). Резултатът от **`3 / 2f`** е **`1.5f`**. **`Math.Ceiling(…)`** закръгля делението нагоре. В нашият случай **`1.5f`** ще стане 2. **`(int)`** се използва, за да може да трансформираме типа обратно в **`int`**.
+Ако искаме да закръглим нагоре, трябва да използваме функцията **`ceil(…)`** от библиотеката **`cmath`**:
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int result = ceil(3 / 2.0); // резултат 2
+}
+```
+В този пример делението не е от 2 целочислени числа. Когато числото е записано със суфикс `'.0'`, това показва, че даденото число е от тип число с плаваща запетая. Резултатът от **`3 / 2.0`** е **`1.5`**. **`ceil(…)`** закръгля делението нагоре. В нашият случай **`1.5`** ще стане **`2.0`**, което се превръща в целочисленото **`2`**.
 
 След като сме изчислили дължината на покрива, завъртаме цикъл от 0 до **`roofLength`**. На всяка итерация ще:
 * Изчисляваме броя **тирета**, които трябва да изрисуваме. Броят ще е равен на **`(n - stars) / 2`**. Записваме го в променлива **`padding`**.
 
-![](/assets/old-images/chapter-6-images/09.House-05.png)
+![](/assets/chapter-6-images/09.House-05.png)
 
 * Отпечатваме на конзолата: "**тирета**" (**`padding / 2`** на брой пъти) + "**звезди**" (**`stars`** пъти) + "**тирета**" (**`padding / 2`** пъти). 
 
-![](/assets/old-images/chapter-6-images/09.House-06.png)
+![](/assets/chapter-6-images/09.House-06.png)
 
 * Преди да свърши итерацията на цикъла добавяме 2 към **`stars`** (броя на **звездите**).
 
-![](/assets/old-images/chapter-6-images/09.House-07.png)
-
-<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td>Не е добра идея да правим събирания на много на брой символни низове по показания по-горе начин, защото това води до <strong>проблеми със скоростта</strong> (performance issues). За повече информация посетете:  <a href="https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder">https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder</a></td>
-</tr></table>
+![](/assets/chapter-6-images/09.House-07.png)
 
 След като сме приключили с **покрива**, е време за **основата**. Тя е по-лесна за печатане:
 * Започваме с цикъл от 0 до n (изключено).
 * Отпечатваме на конзолата: `|` + `*` (**`n - 2`** на брой пъти) + `|`.
 
-![](/assets/old-images/chapter-6-images/09.House-08.png)
+![](/assets/chapter-6-images/09.House-08.png)
 
 Ако всичко сме написали както трябва, задачата ни е решена.
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#8](https://judge.softuni.bg/Contests/Practice/Index/512#8).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#8](https://judge.softuni.bg/Contests/Practice/Index/1366#8).
 
 
 ### Пример: диамант
@@ -391,7 +396,7 @@ int result = 3 / 2; // резултат 1
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#9](https://judge.softuni.bg/Contests/Practice/Index/512#9).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1366#9](https://judge.softuni.bg/Contests/Practice/Index/1366#9).
 
 
 ## Какво научихме от тази глава?
