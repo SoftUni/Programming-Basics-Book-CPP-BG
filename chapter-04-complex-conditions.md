@@ -61,7 +61,7 @@ if (условие_1) {
 
 #### Решение
 **Изходът** на решението на задачата **зависи от няколко неща**.
-Ще използваме две **вжолени** **`if-else`** конструкци, в които **първо** ще
+Ще използваме две **вложени** **`if-else`** конструкци, в които **първо** ще
 проверяваме въведения **пол** и **след това** въведената **възраст**.
 Проверките са **вложени**, защото искаме от **резултата** на първата да се
 определя коя от **другите** проверки да се изпълни;
@@ -69,19 +69,28 @@ if (условие_1) {
 ![](/assets/old-images/chapter-4-images/01.Personal-titles-01.jpg)
 
 ```cpp
-int age;
-string gender;
-cin >> age >> gender;
-if (gender == "m") {
-    if (age < 16)
-        cout << "Master" << endl;
-    else
-        cout << "Mr." << endl;
-} else if (gender == "f") {
-   if (age < 16)
-        cout << "Miss" << endl;
-    else
-        cout << "Ms." << endl;
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	double age;
+	char gender;
+	cin >> age >> gender;
+	
+	if (gender == 'm') {
+		if (age < 16) {
+			cout << "Master" << endl;
+		} else {
+			cout << "Mr." << endl;
+		}
+	} else if (gender == 'f') {
+		if (age < 16) {
+			cout << "Miss" << endl;
+		} else {
+			cout << "Ms." << endl;
+		}
+	}
 }
 ```
 
@@ -92,7 +101,7 @@ if (gender == "m") {
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#0>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#0>.
 
 ### Пример: квартално магазинче
 Предприемчив българин отваря по едно **квартално магазинче** в **няколко града**
@@ -144,7 +153,7 @@ if (town == "Sofia") {
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#1>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#1>.
 
 ## По-сложни проверки
 По-сложните логически проверки се състоят от няколко прости условия, обединени
@@ -161,8 +170,8 @@ if (town == "Sofia") {
 Тези променливи са от тип **`bool`** и затова се наричат **булеви**:
 
 ```cpp
-bool condition = (5 > 3) //true
-cout << boolalpha << condition << endl; //отпечатва "true"
+bool condition = (5 > 3) // true
+cout << boolalpha << condition << endl; // отпечатва "true"
 ```
 
 ## Логическо "и"
@@ -362,7 +371,7 @@ bool result = a || b || c || d;
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#3>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#3>.
 
 ## Логическо отрицание
 Чрез **логическо отрицание** (оператор **`!`**) проверяваме, дали **не е
@@ -392,7 +401,7 @@ bool result = a || b || c || d;
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#4>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#4>.
 
 ## Скоби `()`
 Подобно на аритметичните изрази, използващи събиране (**`+`**) и умножение
@@ -488,7 +497,7 @@ if (onLeftSide || onRightSide || onTopSide || onBottomSide) {
 
 #### Тестване в Judge системата
 След като допишете решението, може да го тествате тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#5>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#5>.
 
 ### Пример: магазин за плодове
 Магазин за плодове в **работни дни** продава на следните **цени**:
@@ -541,7 +550,7 @@ TODO: picture
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#6>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#6>.
 
 ### Пример: търговски комисионни
 Фирма дава следните **комисионни** на търговците си според **града**, в който
@@ -580,7 +589,7 @@ TODO: picture
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#7>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#7>.
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Добра практика</b> е да използваме <b>блокове</b>, които <b>заграждаме</b> с къдрави скоби <b><code>{ }</code></b> след <b><code>if</code></b> и <b><code>else</code></b>. Също така, препоръчително e при писане да <b>отместваме</b> кода <b>след <code>if</code> и <code>else</code></b> с една табулация <b>навътре</b>, за да направим кода по-лесно четим.</td>
@@ -705,7 +714,7 @@ TODO: picture
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#8>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#8>.
 
 ### Пример: вид животно
 Напишете програма, която принтира вида на животно според името му:
@@ -741,7 +750,7 @@ TODO: picture
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#9>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#9>.
 
 ## Какво научихме от тази глава?
 Да си припомним новите конструкции и програмни техники, с които се запознахме в
@@ -827,7 +836,7 @@ switch (селектор)
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#10>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#10>.
 
 ### Задача: волейбол
 Влади е студент, живее в София и си ходи от време на време до родния град.
@@ -880,7 +889,7 @@ switch (селектор)
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#11>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#11>.
 
 ### Задача: * точка във фигурата
 Фигура се състои от **6 блокчета с размер h \* h**, разположени като на
@@ -923,4 +932,4 @@ switch (селектор)
 
 #### Тестване в Judge системата
 Тествайте решението си тук:
-<https://judge.softuni.bg/Contests/Practice/Index/508#12>.
+<https://judge.softuni.bg/Contests/Practice/Index/1362#12>.
