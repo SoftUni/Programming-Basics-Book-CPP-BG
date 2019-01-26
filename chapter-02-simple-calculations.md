@@ -151,6 +151,8 @@ using namespace std;
 int main {
   string str;
   cin >> str;
+  
+  return 0;
 }
 ```
 
@@ -241,7 +243,7 @@ int result = a - b;
 
 За умножение на числа използваме оператора **`*`**:
 
-```cplusplus
+```cpp
 int a = 5;
 int b = 7;
 int product = a * b; // 35
