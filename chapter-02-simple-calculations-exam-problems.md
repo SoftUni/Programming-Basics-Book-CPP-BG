@@ -276,7 +276,7 @@ string str = firstName + " " + lastName + " is " + to_string(age) + " years old"
 
 Нека да си направим чертеж, за да поясним условието на задачата. Той може да изглежда по следния начин:
 
-![](/assets/chapter-2-2-images/03.Change-tiles-01.png)
+![](/assets/chapter-2-2-images/03.Change-Tiles-01.png)
 
 #### Идея за решение
 
