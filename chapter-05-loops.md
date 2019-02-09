@@ -249,11 +249,11 @@
 
 Можем да повтаряме части от кода с **`for` цикъл**:
 
-![](/assets/old-images/chapter-5-images/00.For-loop-01.png)
+![](/assets/chapter-5-images/00.For-loop-01.png)
 
 Можем да четем поредица от **`n`** числа от конзолата:
 
-![](/assets/old-images/chapter-5-images/00.For-loop-03.png)
+![](/assets/chapter-5-images/00.For-loop-03.png)
 
 ## Упражнения: повторения (цикли)
 
