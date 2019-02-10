@@ -249,13 +249,13 @@ switch (селектор)
 
 може да бъде съкратен до този си вид:
 
-![](/assets/chapter-4-2-images/02.Trip-04.png)
+![](/assets/chapter-4-2-images/02.Trip-07.png)
 
 #### Отпечатване на резултата
 
 Остава ни да покажем изчисления резултат на конзолата:
 
-![](/assets/chapter-4-2-images/02.Trip-05.png)
+![](/assets/chapter-4-2-images/02.Trip-06.png)
 
 ### Тестване в Judge системата
 
