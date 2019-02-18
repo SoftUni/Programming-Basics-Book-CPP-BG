@@ -140,7 +140,7 @@ for (int i = 0; i < 5; i++) {
 |  [**CTRL + Shift + S**] | **Запазва** всички файлове в проекта. |
 |  [**CTRL + S**] | **Запазва** текущия файл. |
 
-Повече за **бързите клавиши във Visual Studio** може да намерите тук: [https://shortcutworld.com/en/Visual-Studio/2015/win/all](https://shortcutworld.com/en/Visual-Studio/2015/win/all).
+Повече за **бързите клавиши във Visual Studio** може да намерите тук: [http://visualstudioshortcuts.com/2017/](http://visualstudioshortcuts.com/2017/).
 
 ## Шаблони с код (code snippets)
 
