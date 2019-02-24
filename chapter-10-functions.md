@@ -730,16 +730,27 @@ int main() {
 * **Разделяме** числото на основата.
 * **Повтаряме** алгоритъма, докато входното число не стане 0.
 
-Допишете липсващата логика във функцията по-долу:
+При решаването на тази задача се достига до това, че трябва променлива то тип данни **`int`** да се **превърне** в **`string`**. Това може да стане по начина, описан отдолу. Засега **няма да обясняваме** защо точно така се прави, а просто ще го **приемем** наготово. Този метод ще използваме **не само** за да конвертираме **`int`**, но и **други** типове данни (**`char`**, **`double`** и други) в **`string`**. Нека обърнем внимание на това, че е необходимо да бъде декларирана библиотеката **sstream** (**`#include<sstream>`**).
 
 ```cpp
-string integerToBase(int number, int toBase) {
-    string result = "";
-    while (number != 0) {
-        // Implement the missing conversion logic
-    }
-    
-    return result;
+#include <iostream>
+#include <sstream>
+using namespace std;
+int main() {
+    int number;
+    char symbol;
+    cin >> number;
+    cin >> symbol;
+    string str1 = "The number is ", str2 = "and the symbol is ";
+    stringstream numstr;
+    stringstream symstr;
+    numstr << number;
+    symstr << symbol;
+    string newstr1 = number.str();
+    string newstr2 = symbol.str();
+    string str = str1 + newstr1 + str2 + newstr2 + str2 + ".";
+    cout << str;
+    return 0;
 }
 ```
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/IntegerToBase.
