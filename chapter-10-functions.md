@@ -752,7 +752,7 @@ int main() {
     symstr << symbol;
     string newstr1 = numstr.str();
     string newstr2 = symstr.str();
-    string str = str1 + newstr1 + str2 + newstr2 + str2 + ".";
+    string str = str1 + newstr1 + str2 + newstr2 + ".";
     cout << str;
     return 0;
 }
