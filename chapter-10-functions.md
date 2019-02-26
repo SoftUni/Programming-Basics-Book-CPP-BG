@@ -745,13 +745,13 @@ int main() {
     char symbol;
     cin >> number;
     cin >> symbol;
-    string str1 = "The number is ", str2 = "and the symbol is ";
+    string str1 = "The number is ", str2 = " and the symbol is ";
     stringstream numstr;
     stringstream symstr;
     numstr << number;
     symstr << symbol;
-    string newstr1 = number.str();
-    string newstr2 = symbol.str();
+    string newstr1 = numstr.str();
+    string newstr2 = symstr.str();
     string str = str1 + newstr1 + str2 + newstr2 + str2 + ".";
     cout << str;
     return 0;
