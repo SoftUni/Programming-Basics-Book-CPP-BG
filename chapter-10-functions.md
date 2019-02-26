@@ -520,6 +520,8 @@ int main() {
 
 ![](/assets/chapter-10-images/19_compare_04.PNG)
 
+Важно е да се отбележи следното 
+
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#6](https://judge.softuni.bg/Contests/Practice/Index/1374#6).
