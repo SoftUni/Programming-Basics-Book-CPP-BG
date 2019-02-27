@@ -517,11 +517,9 @@ while (true) {
    
    if (n % 2 == 0) {
       break; // even number -> exit from the loop
-   }
-   
+   } 
    cout << "The number is not even." << endl;
-}
-
+} 
 cout << "Even number entered: " << n << endl;
 ```
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/OperatorBreak.
