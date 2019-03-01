@@ -66,10 +66,10 @@ int n;
 cin >> n;
 
 for (int r = 0; r < n; r++) {
-	for (int c = 0; c < n; c++) {
-		cout << "*";
-	}
-	cout << endl;
+    for (int c = 0; c < n; c++) {
+        cout << "*";
+    }
+    cout << endl;
 }
 ```
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/NestedLoopExample.
