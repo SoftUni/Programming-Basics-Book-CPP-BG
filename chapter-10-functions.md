@@ -797,8 +797,27 @@ int main() {
     return 0;
 }
 ```
+Може да тествате примера онлайн: https://repl.it/@vncpetrov/IntToStringConversion.
 
-Кодът на са
+Кодът на самата задача може да бъде представен по съответно този начин:
+
+```cpp
+#include<iostream>
+#include<string>
+using namespace std;
+string integerToBase(int, int);
+int main() {
+  return 0;
+}
+string integerToBase(int number, int toBase) {
+  string result = "";
+  while (number != 0) {
+      // Implement the missing conversion logic
+  }
+    
+  return result;
+}
+```
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/IntegerToBase.
 
 #### Тестване в Judge системата 
