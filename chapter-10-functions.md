@@ -797,6 +797,8 @@ int main() {
     return 0;
 }
 ```
+
+Кодът на са
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/IntegerToBase.
 
 #### Тестване в Judge системата 
@@ -832,7 +834,7 @@ int main() {
 
 ```cpp
 string str = "==========";
-int length = str.
+int length = str.size();
 ```
 
 #### Тестване в Judge системата
