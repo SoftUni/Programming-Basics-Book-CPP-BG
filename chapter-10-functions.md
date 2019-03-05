@@ -532,7 +532,7 @@ getline(cin, str);
 
 За да използваме функцията **`getline(…)`**, **трябва предварително да сме реферирали** библиотеката **string** (в зависимост от средата за програмиране, може да бъде срещната и като **cstring** или **string.h**): **`#include <string>`**.
 
-**Заради известни съображения**, на които няма да се спираме сега, ще въведем употребата на **още една функция, част от подхода за прочитане на стринг, съдържащ интервали**: **`cin.ignore()`**. Тази функция е необходимо да бъде извикана преди **`getline(…)`**, ако преди това сме прочели стойности от друг тип данни (**`int`**, **`char`** и т.н.). Ако последователно се четат стрингове, съдържащи интервали, то между тях не е нужно да се извиква споменатата функция. Нека разгледаме фрагмент от програма, която чете и печата различни стойности, сред които стрингова с интервали:
+**Заради известни съображения**, на които няма да се спираме сега, ще въведем употребата на **още една функция, част от подхода за прочитане на стринг, съдържащ интервали**: **`cin.ignore()`**. Тази функция е необходимо да бъде извикана преди **`getline(…)`**, ако преди това сме прочели стойности от друг тип данни (**`int`**, **`char`** и т.н.). Ако последователно се четат стрингове, съдържащи интервали, то между тях не е нужно да се извиква споменатата функция. Нека разгледаме фрагмент от програма, която чете и печата различни стойности, сред които стринг, съдържащ интервали:
 
 ```cpp
 int number;
@@ -673,7 +673,7 @@ cout << sentence << endl;
 
 #### Насоки и подсказки
 
-Дефинирайте функция **`printName(string name)`** и я имплементирайте, след което в главната програма прочетете от конзолата име на човек и извикайте функцията като му подадете прочетеното име.
+Дефинираме функция **`printName(string name)`** и я имплементираме, след което в главната програма трябва да прочетем от конзолата име на човек и да извикаме функцията, като ѝ подаваме прочетеното име.
 
 #### Тестване в Judge системата
 
@@ -713,27 +713,19 @@ int min = getMin(getMin(num1, num2), num3);
 
 #### Насоки и подсказки
 
-Задачата може да бъде решена по два начина - единият е чрез **`void`** функция, другият е чрез функция, връщаща стойност от тип **`string`**. Във втория случай това означава, че ще трябва да **съединяваме** отделните низове. То може да стане чрез **обикновено събиране**, както в примера долу:
+Задачата може да бъде решена по два начина - единият е чрез **`void`** функция, другият е чрез функция, връщаща стойност от тип **`string`**. Във втория случай това означава, че ще трябва да **съединяваме** отделните низове. То може да стане чрез **обикновено събиране** (конкатенация), както в примера долу:
 
 ```cpp
-#include <iostream>
-#include <string>
-using namespace std;
-
-int main() {
-    string str1, str2;
-    cin >> str1;
-    cin >> str2;
+string str1, str2;
+cin >> str1;
+cin >> str2;
     
-    str1 += str2;
-    cout << str1;
-    
-    return 0;
-}
+str1 += str2;
+cout << str1;
 ```
 Може да тествате примера онлайн:  https://repl.it/@vncpetrov/workWithTypeString.
 
-В по-нататъшното си обучение в областта на C++ ще разберете и други подходи при работа с низове.
+В по-нататъшното си обучение в областта на C++ ще научим и други подходи при работа с низове.
 
 #### Тестване в Judge системата
 
@@ -777,43 +769,35 @@ int main() {
 
 При решаването на тази задача се достига до това, че трябва променлива то тип данни **`int`** да се **превърне** в **`string`**. Това може да стане по начина, описан по-долу. Този метод ще използваме **не само** за да конвертираме **`int`**, но и **други** типове данни (**`char`**, **`double`** и други) в **`string`**.
 
-
-
 ```cpp
-#include <iostream>
-#include <string>
-using namespace std;
-int main() {
-    int number;
-    char symbol;
-    cin >> number;
-    cin >> symbol;
+int number;
+char symbol;
+cin >> number;
+cin >> symbol;
     
-    string numberAsString = to_string(number);
-    string symbolAsString = to_string(number);
+string numberAsString = to_string(number);
+string symbolAsString = to_string(symbol);
     
-    cout << numberAsString << endl;
-    cout << symbolAsString;
-    return 0;
-}
+cout << numberAsString << endl;
+cout << symbolAsString << endl;
 ```
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/IntToStringConversion.
 
-Кодът на самата задача може да бъде представен по съответно този начин:
+Кодът на самата задача може да бъде представен по следния този начин:
 
 ```cpp
-#include<iostream>
-#include<string>
-using namespace std;
 string integerToBase(int, int);
+
 int main() {
-  // Implement the missing conversion logic
+  // TODO: Implement the missing conversion logic
+  
   return 0;
 }
+
 string integerToBase(int number, int toBase) {
   string result = "";
   while (number != 0) {
-      // Implement the missing conversion logic
+    // TODO: Implement the missing conversion logic
   }
     
   return result;
@@ -841,7 +825,7 @@ string integerToBase(int number, int toBase) {
 #### Примерен вход и изход
 
 |Вход|Изход|
-|---|---|
+|----|-----|
 |4<br>error<br>credit card purchase<br>Invalid customer address<br>500<br>warning<br>Email not confirmed<br>success<br>user registration<br>User registered successfully<br>warning<br>Customer has not email assigned|<code>Error: Failed to execute credit card purchase.</code><br><code>==============================================</code><br><code>Reason: Invalid customer address.</code><br><code>Error code: 500.</code><br><br><code>Warning: Email not confirmed.</code><br><code>=============================</code><br><br><code>Successfully executed user registration.</code><br><code>========================================</code><br><code>User registered successfully.</code><br><br><code>Warning: Customer has not email assigned.</code><br><code>=========================================</code>|
 
 #### Насоки и подсказки
@@ -850,12 +834,15 @@ string integerToBase(int number, int toBase) {
 
 В **`readAndProcessMessage()`** прочитаме типа съобщение от конзолата и според прочетения тип прочитаме останалите данни (които може да са още един, два или три реда). След това извикваме съответния функция за печатане на съответния тип съобщение.
 
-За да се изведе ред от символи, дълъг колкото изречението /низа/ над него, е необходимо броят на символа "=" в този ред да бъде стойността на дължината на съответния низ. Това може да се направи по дадения начин:
+За да се изведе ред от символи, дълъг колкото даден низ, е необходимо първо да намерим дължината на съответния низ. Това може да се направи по следния начин:
 
 ```cpp
-string str = "==========";
+string str = "Software University";
 int length = str.size();
+
+cout << string(length, '=') << endl;
 ```
+Може да тествате примера онлайн: https://repl.it/@vncpetrov/GetStringLength.
 
 #### Тестване в Judge системата
 
@@ -873,11 +860,11 @@ int length = str.size();
 #### Примерен вход и изход
 
 |Вход|Изход|Вход|Изход|
-|---|---|---|---|
+|----|-----|----|-----|
 |3<br>999<br>-420<br>1020|nine-hundred and ninety nine<br>minus four-hundred and twenty<br>too large|2<br>15<br>350|three-hundred and fifty|
 
 |Вход|Изход|Вход|Изход|
-|---|---|---|---|
+|----|-----|----|-----|
 |4<br>311<br>418<br>509<br>-9945|three-hundred and eleven<br>four-hundred and eighteen<br>five-hundred and nine<br>too small|3<br>500<br>123<br>9|five-hundred<br>one-hundred and twenty three|
 
 #### Насоки и подсказки
@@ -921,11 +908,11 @@ int length = str.size();
 #### Примерен вход и изход
 
 |Вход|Изход|
-|---|---|
+|----|-----|
 |7<br>S<br>o<br>f<br>t<br>U<br>n<br>i|V83Kp11nh12ez16sZ85Mn10mn15h|
 
 |Вход|Изход| 
-|---|---|
+|----|-----|
 |7<br>B<br>i<br>r<br>a<br>H<br>a<br>x| H66<n15hv14qh97XJ72Ah97xx10w |
 
 #### Насоки и подсказки
