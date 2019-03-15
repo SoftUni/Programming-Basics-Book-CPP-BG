@@ -59,6 +59,7 @@ int result = 3 - 5; // резултатът е -2
 ```cpp
 int result = 3 * 5; // резултатът е 15
 ```
+Може да тествате примера онлайн: https://repl.it/@vncpetrov/Multiplication.
 
 ### Оператор /
 
@@ -66,7 +67,7 @@ int result = 3 * 5; // резултатът е 15
 int result = 7 / 3; // резултатът е 2 (целочислено деление)
 double result2 = 5 / 2.0; // резултатът е 2.5 (дробно деление)
 ```
-Може да тествате примера онлайн: https://repl.it/@vncpetrov/Multiplication.
+Може да тествате примера онлайн: https://repl.it/@vncpetrov/Division.
 
 ## Конкатенация
 
@@ -81,7 +82,7 @@ string str = firstName + " " + lastName + " is " + to_string(age) + " years old"
 ```
 Може да тествате примера онлайн: https://repl.it/@vncpetrov/ConcatenationExample.
 
-Функцията **`to_string(…)`** конвертира годините в текст, за да може да се извърши конкатенацията
+Функцията **`to_string(…)`** конвертира годините в текст, за да може да се извърши конкатенацията.
 
 ## Изпитни задачи
 
