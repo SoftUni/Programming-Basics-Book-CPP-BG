@@ -9,7 +9,6 @@ for (int r = 1; r <= 5; r++) {
     for (int c = 1; c < 5; c++) {
    	cout << " *";
     }
-    
     cout << endl;
 }
 ```
@@ -41,11 +40,11 @@ string printMe (5, '*');
 ### Примерен вход и изход
 
 |Вход|Изход|Вход|Изход|
-|----|----|----|----|
+|----|-----|----|-----|
 |3|<code>&#47;&#94;&#92;&#47;&#94;&#92;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#92;&#95;&#47;&#92;&#95;&#47;</code>|4|<code>&#47;&#94;&#94;&#92;&#47;&#94;&#94;&#92;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#92;&#95;&#95;&#47;&#92;&#95;&#95;&#47;</code><br>|
 
 |Вход|Изход|Вход|Изход|
-|----|----|----|----|
+|----|-----|----|-----|
 |5|<code>&#47;&#94;&#94;&#92;&#95;&#95;&#47;&#94;&#94;&#92;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&#95;&#95;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#92;&#95;&#95;&#47;&nbsp;&nbsp;&#92;&#95;&#95;&#47;</code><br>|8|<code>&#47;&#94;&#94;&#94;&#94;&#92;&#95;&#95;&#95;&#95;&#47;&#94;&#94;&#94;&#94;&#92;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#124;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#95;&#95;&#95;&#95;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#124;</code><br><code>&#92;&#95;&#95;&#95;&#95;&#47;&nbsp;&nbsp;&nbsp;&nbsp;&#92;&#95;&#95;&#95;&#95;&#47;</code><br>|
 
 ### Насоки и подсказки
@@ -78,7 +77,7 @@ string printMe (5, '*');
 ![](/assets/chapter-6-2-images/01.Draw-fort-04.png)
 
 <table><tr><td><img src="./assets/alert-icon.png" style="max-width:50px" /></td>
-<td><strong><code>\</code></strong> е специален символ в езика Python и използвайки само него в метода <strong><code>print(…)</code></strong>, конзолата няма да го разпечата, затова с <strong><code>\\</code></strong> показваме на конзолата, че искаме да отпечатаме точно този символ, без да се интерпретира като специален (<b>екранираме го</b>, на английски се нарича “<b>character escaping</b>”).</td>
+<td><strong><code>\</code></strong> е специален символ в езика C++ и използвайки само него в функцията <strong><code>cout</code></strong>, конзолата няма да го разпечата, затова с <strong><code>\\</code></strong> показваме на конзолата, че искаме да отпечатаме точно този символ, без да се интерпретира като специален (<b>екранираме го</b>, на английски се нарича "<b>character escaping</b>").</td>
 </tr></table>
 
 **Тялото на крепостта** се състои от начало **`|`**, среда **`(празно място)`** и край **`|`**. **Средата** от празно място е с големина **`2 * n - 2`**. Броят на **редовете** за стени, можем да определим от дадените ни примери - **`n - 3`**:
