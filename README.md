@@ -39,13 +39,11 @@
 * [Основи на програмирането с JavaScript](https://js-book.softuni.bg)
 * [Основи на програмирането с Python](https://python-book.softuni.bg)
 * [Основи на програмирането със C++](https://cpp-book.softuni.bg)
-* [Основи на програмирането с PHP](https://php-book.softuni.bg)
-* [Основи на програмирането с Ruby](https://ruby-book.softuni.bg)
 
 Кратка информация за изданието:
 * Заглавие: **Основи на програмирането със C++**
 * Автори: **Светлин Наков и колектив**
-* ISBN: **TODO**
+* ISBN: **978-619-00-0951-1**
 * Издание: **Faber Publishing, София, 2019 г.**
 * Лиценз: **CC-BY-SA**
 * Сорс код: https://github.com/SoftUni/Programming-Basics-Book-CPP-BG
