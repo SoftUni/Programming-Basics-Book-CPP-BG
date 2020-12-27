@@ -27,11 +27,10 @@
 * [Заключение](chapter-12-conclusion.md)
 
 Изтеглете книгата "Основи на програмирането със C++" в PDF формат:
-* <a href=#>Programming-Basics-CPP-v2018.pdf</a> (още не е готова)
+* <a href="https://github.com/SoftUni/Programming-Basics-Book-CPP-BG/blob/master/resources/Programming-Basics-CPlusPlus-v2019.pdf">Programming-Basics-CPP-v2019.pdf</a>
 
-Настоящата книга е достъпна в няколко варианта с различни езици за програмиране:
+Настоящата книга е достъпна на няколко езика за програмиране:
 * [Основи на програмирането със C#](https://csharp-book.softuni.bg)
-* [Programming Basics with C# (English)](https://csharp-book.softuni.org)
 * [Основи на програмирането с Java](https://java-book.softuni.bg)
 * [Основи на програмирането с JavaScript](https://js-book.softuni.bg)
 * [Основи на програмирането с Python](https://python-book.softuni.bg)
