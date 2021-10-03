@@ -36,7 +36,7 @@
 
 **Средите за програмиране** са удобни, защото интегрират всичко необходимо за разработката на програмата, без да се напуска средата. Ако не ползваме среда за разработка, ще трябва да пишем кода в текстов редактор, да го компилираме с команда от конзолата, да го изпълняваме с друга команда от конзолата и да пишем още допълнителни команди, когато се налага, и това ще ни губи време. Затова повечето програмисти ползват IDE в ежедневната си работа.
 
-За програмиране на **езика C++** най-често се ползва средата за разработка **Visual Studio**, която се разработва и разпространява безплатно от Microsoft и може да се изтегли от: https://www.visualstudio.com/downloads/. Друга разпространена среда за разработка е **Code::Blocks** (http://www.codeblocks.org/downloads). В настоящата книга ще използваме средата за разработка **Visual Studio**.
+За програмиране на **езика C++** най-често се ползва средата за разработка **Visual Studio**, която се разработва и разпространява безплатно от Microsoft и може да се изтегли от: https://www.visualstudio.com/downloads. Друга разпространена среда за разработка е **Code::Blocks** (https://www.codeblocks.org/downloads). В настоящата книга ще използваме средата за разработка **Visual Studio**.
 
 ### Езици от ниско и високо ниво, среди за изпълнение (Runtime Environments)
 
@@ -275,9 +275,9 @@ system("pause");
 
 ### Тестване на програмата в Judge системата
 
-Тестването на задачите от тази книга е автоматизирано и се осъществява през Интернет, от сайта на **Judge системата**: [https://judge.softuni.bg](https://judge.softuni.bg). Оценяването на задачите се извършва на момента от системата. Всяка задача минава поредица от тестове, като всеки успешно преминат тест дава предвидените за него точки. Тестовете, които се подават на задачите, са скрити.
+Тестването на задачите от тази книга е автоматизирано и се осъществява през Интернет, от сайта на **Judge системата**: [https://judge.softuni.org](https://judge.softuni.org). Оценяването на задачите се извършва на момента от системата. Всяка задача минава поредица от тестове, като всеки успешно преминат тест дава предвидените за него точки. Тестовете, които се подават на задачите, са скрити.
 
-Горната програма може да тестваме тук: [https://judge.softuni.bg/Contests/Practice/Index/1357#0](https://judge.softuni.bg/Contests/Practice/Index/1357#0). Поставяме целия сорс код на програмата в черното поле и избираме **C++ code**, както е показано тук:
+Горната програма може да тестваме тук: [https://judge.softuni.org/Contests/Practice/Index/1357#0](https://judge.softuni.org/Contests/Practice/Index/1357#0). Поставяме целия сорс код на програмата в черното поле и избираме **C++ code**, както е показано тук:
 
 ![](/assets/chapter-1-images/01.Hello-c++-12.png)
 
@@ -403,7 +403,7 @@ int main()
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1357#1](https://judge.softuni.bg/Contests/Practice/Index/1357#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1357#1](https://judge.softuni.org/Contests/Practice/Index/1357#1).
 
 ![](/assets/chapter-1-images/03.Expression-03.png)
 
@@ -437,7 +437,7 @@ cout << 2 << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1357#2](https://judge.softuni.bg/Contests/Practice/Index/1357#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1357#2](https://judge.softuni.org/Contests/Practice/Index/1357#2).
 
 Сега помислете дали може да напишем програмата по **по-умен начин**, така че да не повтаряме 20 пъти една и съща команда. Потърсете в Интернет информация за "**[for loop C++](https://www.google.bg/search?ei=c1M2XOj4Hq2ygwfi5abYCg&q=for+loop+C%2B%2B&oq=for+loop+C%2B%2B&gs_l=psy-ab.3..0i71l8.0.0..11731...0.0..0.0.0.......0......gws-wiz.xCpG9EXvoh4)**".
 
@@ -471,7 +471,7 @@ cout << "**" << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1357#3](https://judge.softuni.bg/Contests/Practice/Index/1357#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1357#3](https://judge.softuni.org/Contests/Practice/Index/1357#3).
 
 Опитайте да **подобрите решението**, така че да няма много повтарящи се команди. Може ли това да стане с **`for`** цикъл? Успяхте ли да намерите умно решение (например с цикъл) на предната задача? При тази задача може да се ползва нещо подобно, но малко по-сложно (два цикъла един в друг). Ако не успеете, няма проблем, ще учим цикли след няколко глави и ще си спомните за тази задача тогава.
 
@@ -513,7 +513,7 @@ cin >> a >> b;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1357#4](https://judge.softuni.bg/Contests/Practice/Index/1357#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1357#4](https://judge.softuni.org/Contests/Practice/Index/1357#4).
 
 
 ### \* Задача: квадрат от звездички
@@ -542,7 +542,7 @@ cin >> n;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1357#5](https://judge.softuni.bg/Contests/Practice/Index/1357#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1357#5](https://judge.softuni.org/Contests/Practice/Index/1357#5).
 
 ## Конзолни, графични и уеб приложения
 

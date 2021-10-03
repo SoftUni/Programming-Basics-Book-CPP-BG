@@ -16,7 +16,7 @@
 
 Езикът C++ е направен от **Бьорн Строуструп** (Bjarne Stroustrup - https://en.wikipedia.org/wiki/Bjarne_Stroustrup). Трябва да знаете, че дори да не се спазват конвенциите, кодът ще работи (стига да е написан правилно), но просто няма да бъде лесно разбираем. Това, разбира се, не е фатално на основно ниво, но колкото по-бързо свикнете да пишете качествен код, толкова по-добре.
 
-За езика **C++ съществуват множество код конвенции**, като например една често използвана е на Bjarne Stroustrup, която е публикувана в статията "Bjarne Stroustrup's C++ Style and Technique FAQ" в [http://www.stroustrup.com/bs_faq2.html](http://www.stroustrup.com/bs_faq2.html).
+За езика **C++ съществуват множество код конвенции**, като например една често използвана е на Bjarne Stroustrup, която е публикувана в статията "Bjarne Stroustrup's C++ Style and Technique FAQ" в [https://www.stroustrup.com/bs_faq2.html](https://www.stroustrup.com/bs_faq2.html).
 
 Използваните конвенции в текущата книга са описани на следващите редове. За форматиране на кода се препоръчва **къдравите скоби `{}`** да са по следния начин:
 * Отварящата скоба **`{`** да е на същия ред и точно след конструкцията, към която се отнася.
@@ -147,7 +147,7 @@ for (int i = 0; i < 5; i++) {
 |  [**CTRL + Shift + S**] | **Запазва** всички файлове в проекта.                                      |
 |  [**CTRL + S**]         | **Запазва** текущия файл.                                                  |
 
-Повече за **бързите клавиши във Visual Studio** може да намерите тук: [http://visualstudioshortcuts.com/2017/](http://visualstudioshortcuts.com/2017/).
+Повече за **бързите клавиши във Visual Studio** може да намерите тук: [https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio).
 
 ## Шаблони с код (code snippets)
 

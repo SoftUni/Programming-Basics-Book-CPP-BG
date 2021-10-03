@@ -127,7 +127,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1373#0](https://judge.softuni.bg/Contests/Practice/Index/1373#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1373#0](https://judge.softuni.org/Contests/Practice/Index/1373#0).
 
 ## Задача: числен израз
 
@@ -233,11 +233,11 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1373#1](https://judge.softuni.bg/Contests/Practice/Index/1373#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1373#1](https://judge.softuni.org/Contests/Practice/Index/1373#1).
  
 ## Задача: бикове и крави
 
-Всички знаем играта „Бикове и крави“ ([http://en.wikipedia.org/wiki/Bulls_and_cows](http://en.wikipedia.org/wiki/Bulls_and_cows)). При дадено 4-цифрено **тайно число** и 4-цифрено **предполагаемо число**, използваме следните правила:
+Всички знаем играта „Бикове и крави“ ([https://en.wikipedia.org/wiki/Bulls_and_cows](https://en.wikipedia.org/wiki/Bulls_and_cows)). При дадено 4-цифрено **тайно число** и 4-цифрено **предполагаемо число**, използваме следните правила:
 - Ако имаме цифра от предполагаемото число, която съвпада с цифра от тайното число и е на **същата позиция**, имаме ***бик***.
 - Ако имаме цифра от предполагаемото число, която съвпада с цифра от тайното число, но е **на различна позиция**, имаме ***крава***.
 
@@ -349,4 +349,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1373#2](https://judge.softuni.bg/Contests/Practice/Index/1373#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1373#2](https://judge.softuni.org/Contests/Practice/Index/1373#2).

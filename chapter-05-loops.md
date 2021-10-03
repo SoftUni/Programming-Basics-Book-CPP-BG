@@ -45,7 +45,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#0](https://judge.softuni.bg/Contests/Practice/Index/1364#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#0](https://judge.softuni.org/Contests/Practice/Index/1364#0).
 
 Трябва да получите **100 точки** (напълно коректно решение).
  
@@ -69,7 +69,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#1](https://judge.softuni.bg/Contests/Practice/Index/1364#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#1](https://judge.softuni.org/Contests/Practice/Index/1364#1).
 
 
 ### Пример: всички латински букви
@@ -84,7 +84,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#2](https://judge.softuni.bg/Contests/Practice/Index/1364#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#2](https://judge.softuni.org/Contests/Practice/Index/1364#2).
  
 ### Пример: събиране на числа
 
@@ -115,7 +115,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#3](https://judge.softuni.bg/Contests/Practice/Index/1364#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#3](https://judge.softuni.org/Contests/Practice/Index/1364#3).
 
 
 ### Пример: най-голямо число
@@ -142,7 +142,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#4](https://judge.softuni.bg/Contests/Practice/Index/1364#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#4](https://judge.softuni.org/Contests/Practice/Index/1364#4).
  
 ### Пример: най-малко число
 
@@ -164,7 +164,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#5](https://judge.softuni.bg/Contests/Practice/Index/1364#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#5](https://judge.softuni.org/Contests/Practice/Index/1364#5).
  
 ### Пример: ляв и дясен сбор
 
@@ -184,7 +184,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#6](https://judge.softuni.bg/Contests/Practice/Index/1364#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#6](https://judge.softuni.org/Contests/Practice/Index/1364#6).
  
 ### Пример: четен / нечетен сбор
 
@@ -206,7 +206,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#7](https://judge.softuni.bg/Contests/Practice/Index/1364#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#7](https://judge.softuni.org/Contests/Practice/Index/1364#7).
  
 ### Пример: събиране на гласните букви
 
@@ -231,7 +231,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#8](https://judge.softuni.bg/Contests/Practice/Index/1364#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#8](https://judge.softuni.org/Contests/Practice/Index/1364#8).
  
 ## Какво научихме от тази глава?
 
@@ -275,7 +275,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#9](https://judge.softuni.bg/Contests/Practice/Index/1364#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#9](https://judge.softuni.org/Contests/Practice/Index/1364#9).
  
 ### Задача: четни / нечетни позиции
 
@@ -298,7 +298,7 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#10](https://judge.softuni.bg/Contests/Practice/Index/1364#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#10](https://judge.softuni.org/Contests/Practice/Index/1364#10).
  
 ### Задача: еднакви двойки
 
@@ -326,6 +326,6 @@ for (int i = 1; i <= 10; i++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1364#11](https://judge.softuni.bg/Contests/Practice/Index/1364#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1364#11](https://judge.softuni.org/Contests/Practice/Index/1364#11).
 
 Ако имате проблеми с задачите по-горе, **гледайте видеото** в началото на тази глава. Там са обяснени повечето от тях, на живо и стъпка по стъпка. Или питайте във **форума на СофтУни**: https://softuni.bg/forum.

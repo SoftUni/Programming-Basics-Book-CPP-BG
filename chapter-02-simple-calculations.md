@@ -104,7 +104,7 @@ cout << area << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#0](https://judge.softuni.bg/Contests/Practice/Index/1358#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#0](https://judge.softuni.org/Contests/Practice/Index/1358#0).
  
 ## Четене на дробно число от конзолата
 
@@ -136,7 +136,7 @@ cout << centimeters << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#1](https://judge.softuni.bg/Contests/Practice/Index/1358#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#1](https://judge.softuni.org/Contests/Practice/Index/1358#1).
 
 ## Четене на текст
 
@@ -178,7 +178,7 @@ cout << "Hello, " << name << "!\n";
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#2](https://judge.softuni.bg/Contests/Practice/Index/1358#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#2](https://judge.softuni.org/Contests/Practice/Index/1358#2).
 
 ## Печатане на текст и числа
 
@@ -205,7 +205,7 @@ cout << "You are " << firstName << " " << lastName <<
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#3](https://judge.softuni.bg/Contests/Practice/Index/1358#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#3](https://judge.softuni.org/Contests/Practice/Index/1358#3).
 
 ## Аритметични операции
 
@@ -350,7 +350,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#4](https://judge.softuni.bg/Contests/Practice/Index/1358#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#4](https://judge.softuni.org/Contests/Practice/Index/1358#4).
 
 ### Пример: периметър и лице на кръг 
 
@@ -369,7 +369,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#5](https://judge.softuni.bg/Contests/Practice/Index/1358#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#5](https://judge.softuni.org/Contests/Practice/Index/1358#5).
 
 ### Пример: лице на правоъгълник в равнината
 
@@ -389,7 +389,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#6](https://judge.softuni.bg/Contests/Practice/Index/1358#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#6](https://judge.softuni.org/Contests/Practice/Index/1358#6).
 
 ## Какво научихме от тази глава?
 
@@ -453,7 +453,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#0](https://judge.softuni.bg/Contests/Practice/Index/1358#0). 
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#0](https://judge.softuni.org/Contests/Practice/Index/1358#0). 
 
 Трябва да получите 100 точки (напълно коректно решение):
 
@@ -527,7 +527,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#1](https://judge.softuni.bg/Contests/Practice/Index/1358#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#1](https://judge.softuni.org/Contests/Practice/Index/1358#1).
 
 Решението би трябвало да бъде прието като напълно коректно:
 
@@ -553,7 +553,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/1358#2](https://judge.softuni.bg/Contests/Practice/Index/1358#2).
+Тествайте решението си тук:  [https://judge.softuni.org/Contests/Practice/Index/1358#2](https://judge.softuni.org/Contests/Practice/Index/1358#2).
 
 ### Задача: съединяване на текст и числа
 
@@ -573,7 +573,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#3](https://judge.softuni.bg/Contests/Practice/Index/1358#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#3](https://judge.softuni.org/Contests/Practice/Index/1358#3).
 
 ### Задача: лице на трапец
 
@@ -595,7 +595,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#4](https://judge.softuni.bg/Contests/Practice/Index/1358#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#4](https://judge.softuni.org/Contests/Practice/Index/1358#4).
 
 ### Задача: периметър и лице на кръг
 
@@ -616,7 +616,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#5](https://judge.softuni.bg/Contests/Practice/Index/1358#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#5](https://judge.softuni.org/Contests/Practice/Index/1358#5).
 
 ### Задача: лице на правоъгълник в равнината
 
@@ -634,7 +634,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#6](https://judge.softuni.bg/Contests/Practice/Index/1358#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#6](https://judge.softuni.org/Contests/Practice/Index/1358#6).
 
 ### Задача: лице на триъгълник
 
@@ -651,11 +651,11 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#7](https://judge.softuni.bg/Contests/Practice/Index/1358#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#7](https://judge.softuni.org/Contests/Practice/Index/1358#7).
 
 ### Задача: конзолен конвертор - от градуси °C към градуси °F
 
-Напишете програма, която чете **градуси по скалата на Целзий** (°C) и ги преобразува до **градуси по скалата на Фаренхайт** (°F). Потърсете в Интернет подходяща [формула](http://bfy.tw/3rGh "Търсене в Google"), с която да извършите изчисленията. Закръглете резултата до **2 символа след десетичния знак**. Ето няколко примера:
+Напишете програма, която чете **градуси по скалата на Целзий** (°C) и ги преобразува до **градуси по скалата на Фаренхайт** (°F). Потърсете в Интернет подходяща [формула](https://bfy.tw/3rGh "Търсене в Google"), с която да извършите изчисленията. Закръглете резултата до **2 символа след десетичния знак**. Ето няколко примера:
 
 #### Примерен вход и изход
 
@@ -668,7 +668,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#8](https://judge.softuni.bg/Contests/Practice/Index/1358#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#8](https://judge.softuni.org/Contests/Practice/Index/1358#8).
 
 ### Задача: конзолен конвертор - от радиани в градуси
 
@@ -685,7 +685,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#9](https://judge.softuni.bg/Contests/Practice/Index/1358#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#9](https://judge.softuni.org/Contests/Practice/Index/1358#9).
 
 ### Задача: конзолен конвертор - USD към BGN
 
@@ -701,7 +701,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1358#10](https://judge.softuni.bg/Contests/Practice/Index/1358#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1358#10](https://judge.softuni.org/Contests/Practice/Index/1358#10).
 
 ### Задача: \* конзолен междувалутен конвертор
 
@@ -724,4 +724,4 @@ Trapezoid area = 17.5
  
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#11](https://judge.softuni.bg/Contests/Practice/Index/504#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/504#11](https://judge.softuni.org/Contests/Practice/Index/504#11).

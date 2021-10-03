@@ -154,7 +154,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1365#0](https://judge.softuni.bg/Contests/Practice/Index/1365#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1365#0](https://judge.softuni.org/Contests/Practice/Index/1365#0).
  
 ## Задача: умната Лили
 
@@ -234,7 +234,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1365#1](https://judge.softuni.bg/Contests/Practice/Index/1365#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1365#1](https://judge.softuni.org/Contests/Practice/Index/1365#1).
 
 ## Задача: завръщане в миналото
 
@@ -309,7 +309,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1365#2](https://judge.softuni.bg/Contests/Practice/Index/1365#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1365#2](https://judge.softuni.org/Contests/Practice/Index/1365#2).
 
 ## Задача: болница
 
@@ -399,7 +399,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1365#3](https://judge.softuni.bg/Contests/Practice/Index/1365#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1365#3](https://judge.softuni.org/Contests/Practice/Index/1365#3).
 
 ## Задача: деление без остатък
 
@@ -486,7 +486,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1365#4](https://judge.softuni.bg/Contests/Practice/Index/1365#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1365#4](https://judge.softuni.org/Contests/Practice/Index/1365#4).
  
 ## Задача: логистика
 
@@ -579,4 +579,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1365#5](https://judge.softuni.bg/Contests/Practice/Index/1365#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1365#5](https://judge.softuni.org/Contests/Practice/Index/1365#5).

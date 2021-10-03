@@ -209,7 +209,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Програмата с общо пет функции, които се извикват една от друга, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в Judge системата: [https://judge.softuni.bg/Contests/Practice/Index/1374#0](https://judge.softuni.bg/Contests/Practice/Index/1374#0).
+Програмата с общо пет функции, които се извикват една от друга, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в Judge системата: [https://judge.softuni.org/Contests/Practice/Index/1374#0](https://judge.softuni.org/Contests/Practice/Index/1374#0).
 
 ## Функции с параметри
 
@@ -256,7 +256,7 @@ int main() {
 ![](/assets/chapter-10-images/07_printSign_02.PNG)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#1](https://judge.softuni.bg/Contests/Practice/Index/1374#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#1](https://judge.softuni.org/Contests/Practice/Index/1374#1).
 
 Може да ви направи впечатление, че променливата от **`main()`**, която подаваме като параметър на **`printSign(…)`** функцията, е с име **n**, а във **`printSign(…)`** е именувана **a**. Можехме във въпросната функция да използваме параметър, който носи **същото** име като променливата в **`main()`**, т.е. **n**.
 
@@ -296,7 +296,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#2](https://judge.softuni.bg/Contests/Practice/Index/1374#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#2](https://judge.softuni.org/Contests/Practice/Index/1374#2).
 
 ### Пример: рисуване на запълнен квадрат
 
@@ -329,7 +329,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#3](https://judge.softuni.bg/Contests/Practice/Index/1374#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#3](https://judge.softuni.org/Contests/Practice/Index/1374#3).
 
 ## Връщане на резултат от функция
 
@@ -409,7 +409,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#4](https://judge.softuni.bg/Contests/Practice/Index/1374#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#4](https://judge.softuni.org/Contests/Practice/Index/1374#4).
 
 ### Пример: степен на число
 
@@ -431,7 +431,7 @@ int main() {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#5](https://judge.softuni.bg/Contests/Practice/Index/1374#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#5](https://judge.softuni.org/Contests/Practice/Index/1374#5).
 
 ### Функции, връщащи няколко стойности
 
@@ -565,7 +565,7 @@ cout << sentence << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#6](https://judge.softuni.bg/Contests/Practice/Index/1374#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#6](https://judge.softuni.org/Contests/Practice/Index/1374#6).
  
 ## Вложени функции (локални функции)
 
@@ -676,7 +676,7 @@ cout << sentence << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#7](https://judge.softuni.bg/Contests/Practice/Index/1374#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#7](https://judge.softuni.org/Contests/Practice/Index/1374#7).
 
 ### Задача: по-малко число
 
@@ -698,7 +698,7 @@ int min = getMin(getMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#8](https://judge.softuni.bg/Contests/Practice/Index/1374#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#8](https://judge.softuni.org/Contests/Practice/Index/1374#8).
 
 ### Задача: повтаряне на низ
 
@@ -728,7 +728,7 @@ cout << str1;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#9](https://judge.softuni.bg/Contests/Practice/Index/1374#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#9](https://judge.softuni.org/Contests/Practice/Index/1374#9).
 
 ### Задача: n-та цифра
 
@@ -746,7 +746,7 @@ cout << str1;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#10](https://judge.softuni.bg/Contests/Practice/Index/1374#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#10](https://judge.softuni.org/Contests/Practice/Index/1374#10).
  
 ### Задача: число към бройна система
 
@@ -806,7 +806,7 @@ string integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата 
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#11](https://judge.softuni.bg/Contests/Practice/Index/1374#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#11](https://judge.softuni.org/Contests/Practice/Index/1374#11).
 
 ### Задача: известия
 
@@ -845,7 +845,7 @@ cout << string(length, '=') << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#12](https://judge.softuni.bg/Contests/Practice/Index/1374#12).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#12](https://judge.softuni.org/Contests/Practice/Index/1374#12).
 
 ### Задача: числа към думи
 
@@ -878,7 +878,7 @@ cout << string(length, '=') << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#13](https://judge.softuni.bg/Contests/Practice/Index/1374#13).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#13](https://judge.softuni.org/Contests/Practice/Index/1374#13).
  
 ### Задача: криптиране на низ
 
@@ -922,4 +922,4 @@ cout << string(length, '=') << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1374#14](https://judge.softuni.bg/Contests/Practice/Index/1374#14).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1374#14](https://judge.softuni.org/Contests/Practice/Index/1374#14).

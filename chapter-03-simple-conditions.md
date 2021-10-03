@@ -71,7 +71,7 @@ if (булев израз) {
 #### Тестване в Judge системата
 
 Тествайте програмата от примера в judge системата на СофтУни:
-[https://judge.softuni.bg/Contests/Practice/Index/1360#0](https://judge.softuni.bg/Contests/Practice/Index/1360#0).
+[https://judge.softuni.org/Contests/Practice/Index/1360#0](https://judge.softuni.org/Contests/Practice/Index/1360#0).
 
 ## Проверки с if-else конструкция
 
@@ -94,7 +94,7 @@ else {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#1](https://judge.softuni.bg/Contests/Practice/Index/1360#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#1](https://judge.softuni.org/Contests/Practice/Index/1360#1).
 
 ## За къдравите скоби { } след if / else
 
@@ -136,7 +136,7 @@ else {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#2](https://judge.softuni.bg/Contests/Practice/Index/1360#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#2](https://judge.softuni.org/Contests/Practice/Index/1360#2).
  
 ### Пример: по-голямото число
 
@@ -148,7 +148,7 @@ else {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#3](https://judge.softuni.bg/Contests/Practice/Index/1360#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#3](https://judge.softuni.org/Contests/Practice/Index/1360#3).
  
 ## Живот на променлива
 
@@ -208,7 +208,7 @@ else  {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#4](https://judge.softuni.bg/Contests/Practice/Index/1360#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#4](https://judge.softuni.org/Contests/Practice/Index/1360#4).
  
 ## Упражнения: прости проверки
 
@@ -248,7 +248,7 @@ else  {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#5](https://judge.softuni.bg/Contests/Practice/Index/1360#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#5](https://judge.softuni.org/Contests/Practice/Index/1360#5).
   
 ### Задача: сумиране на секунди
 
@@ -275,7 +275,7 @@ else  {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#6](https://judge.softuni.bg/Contests/Practice/Index/1360#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#6](https://judge.softuni.org/Contests/Practice/Index/1360#6).
  
 ### Задача: конвертор за мерни единици
 
@@ -327,7 +327,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#7](https://judge.softuni.bg/Contests/Practice/Index/1360#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#7](https://judge.softuni.org/Contests/Practice/Index/1360#7).
  
 ## Дебъгване - прости операции с дебъгер
 
@@ -406,7 +406,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#0](https://judge.softuni.bg/Contests/Practice/Index/1360#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#0](https://judge.softuni.org/Contests/Practice/Index/1360#0).
 
 ### Задача: отлична оценка или не
 
@@ -438,7 +438,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#1](https://judge.softuni.bg/Contests/Practice/Index/1360#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#1](https://judge.softuni.org/Contests/Practice/Index/1360#1).
 
 ![](/assets/chapter-3-images/02.Excellent-or-not-06.png)
  
@@ -465,7 +465,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#2](https://judge.softuni.bg/Contests/Practice/Index/1360#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#2](https://judge.softuni.org/Contests/Practice/Index/1360#2).
 
 ### Задача: намиране на по-голямото число
 
@@ -492,7 +492,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#3](https://judge.softuni.bg/Contests/Practice/Index/1360#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#3](https://judge.softuni.org/Contests/Practice/Index/1360#3).
 
 ### Задача: изписване на число до 9 с думи
 
@@ -513,7 +513,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#4](https://judge.softuni.bg/Contests/Practice/Index/1360#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#4](https://judge.softuni.org/Contests/Practice/Index/1360#4).
 
 ### Задача: познай паролата
 
@@ -533,7 +533,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#8](https://judge.softuni.bg/Contests/Practice/Index/1360#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#8](https://judge.softuni.org/Contests/Practice/Index/1360#8).
 
 ### Задача: число от 100 до 200
 
@@ -549,7 +549,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#9](https://judge.softuni.bg/Contests/Practice/Index/1360#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#9](https://judge.softuni.org/Contests/Practice/Index/1360#9).
 
 ### Задача: еднакви думи
 
@@ -578,7 +578,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#10](https://judge.softuni.bg/Contests/Practice/Index/1360#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#10](https://judge.softuni.org/Contests/Practice/Index/1360#10).
 
 ### Задача: информация за скоростта
 
@@ -602,7 +602,7 @@ transform(data.begin(), data.end(), data.begin(), ::tolower);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#11](https://judge.softuni.bg/Contests/Practice/Index/1360#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#11](https://judge.softuni.org/Contests/Practice/Index/1360#11).
 
 ### Задача: лица на фигури
 
@@ -639,7 +639,7 @@ cout << fixed << setprecision(3) << f << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#12](https://judge.softuni.bg/Contests/Practice/Index/1360#12).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#12](https://judge.softuni.org/Contests/Practice/Index/1360#12).
 
 ### Задача: време + 15 минути
 
@@ -661,7 +661,7 @@ cout << fixed << setprecision(3) << f << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#13](https://judge.softuni.bg/Contests/Practice/Index/1360#13).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#13](https://judge.softuni.org/Contests/Practice/Index/1360#13).
 
 ### Задача: еднакви 3 числа
 
@@ -677,7 +677,7 @@ cout << fixed << setprecision(3) << f << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#14](https://judge.softuni.bg/Contests/Practice/Index/1360#14).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#14](https://judge.softuni.org/Contests/Practice/Index/1360#14).
 
 ### Задача: \* изписване на число от 0 до 100 с думи
 
@@ -697,4 +697,4 @@ cout << fixed << setprecision(3) << f << endl;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1360#15](https://judge.softuni.bg/Contests/Practice/Index/1360#15).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1360#15](https://judge.softuni.org/Contests/Practice/Index/1360#15).
