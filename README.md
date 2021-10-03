@@ -33,9 +33,11 @@
 
 ## Варианти на книгата
 
-Настоящата книга е достъпна на няколко езика за програмиране:
-* [Основи на програмирането със C#](https://csharp-book.softuni.bg)
+Настоящата книга е достъпна в няколко варианта с различни езици за програмиране:
 * [Programming Basics with C# (English)](https://csharp-book.softuni.org)
+* [Programming Basics with Java (English)](https://java-book.softuni.org)
+* [Programming Basics with JavaScript (English)](https://js-book.softuni.org)
+* [Основи на програмирането със C#](https://csharp-book.softuni.bg)
 * [Основи на програмирането с Java](https://java-book.softuni.bg)
 * [Основи на програмирането с JavaScript](https://js-book.softuni.bg)
 * [Основи на програмирането с Python](https://python-book.softuni.bg)
