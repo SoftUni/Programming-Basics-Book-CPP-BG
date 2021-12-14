@@ -253,7 +253,7 @@
 
 **Сорс кодът** на книгата може да се намери в GitHub: [https://github.com/SoftUni/Programming-Basics-Book-CPP-BG](https://github.com/SoftUni/Programming-Basics-Book-CPP-BG).
 
-Международен стандартен номер на книга ISBN: **TODO**.
+Международен стандартен номер на книга ISBN: **978-619-00-0951-1**.
 
 ## Докладване на грешки
 
